@@ -16,11 +16,12 @@ QBCore-Items is a resource that introduces a variety of items to your QBCore ser
 
 1. Ensure you have [QBCore](https://github.com/qbcore-framework/qb-core) installed on your server.
 
-2. Clone this repository into your `resources` directory.
+2. Clone this repository or download it.
 
-3. Add `start qbcore-items` to your server.cfg file.
+3. Add this items to your qbcore/shared/items.lua file.
+4. replace or add html folder in your qb-inventory.
 
-4. Restart your server.
+5. Restart your server.
 
 ## Usage
 
