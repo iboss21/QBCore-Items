@@ -675,7 +675,7 @@ QBShared.Items = {
     fries 								= { name = 'fries', label = 'Fries', weight = 150, type = 'item', image = 'fries.png', unique = false, useable = true, shouldClose = false, combinable = nil, description = '' },
     tomato 								= { name = 'tomato', label = 'Tomato', weight = 150, type = 'item', image = 'tomato.png', unique = false, useable = true, shouldClose = false, combinable = nil, description = '' },
     rice 								= { name = 'rice', label = 'Rice', weight = 150, type = 'item', image = 'rice.png', unique = false, useable = true, shouldClose = false, combinable = nil, description = '' },
-    boat_big 							= { name = 'boat_big', label = 'Big Boat', weight = 150, type = 'item', image = 'boat_big.png', unique = false, useable = true, shouldClose = false, combin
+    boat_big = { name = 'boat_big', label = 'Big Boat', weight = 150, type = 'item', image = 'boat_big.png', unique = false, useable = true, shouldClose = false, combinable = nil, description = '' },
     boat_small = { name = 'boat_small', label = 'Small Boat', weight = 300, type = 'item', image = 'boat_small.png', unique = false, useable = true, shouldClose = false, combinable = nil, description = '' },
     lemon = { name = 'lemon', label = 'Lemon', weight = 50, type = 'item', image = 'lemon.png', unique = false, useable = true, shouldClose = false, combinable = nil, description = '' },
     
@@ -914,7 +914,7 @@ QBShared.Items = {
     mustangv8 = { name = "mustangv8", label = "Coyote V8", weight = 8000, type = "item", image = "mustangv8.png", unique = false, useable = true, shouldClose = false, combinable = nil, description = "Coyote V8 engine." },
     k20a = { name = "k20a", label = "RSX K20A", weight = 8000, type = "item", image = "k20a.png", unique = false, useable = true, shouldClose = false, combinable = nil, description = "K20 engine." },
     rb26 = { name = "rb26", label = "RB26DETT", weight = 8000, type = "item", image = "rb26.png", unique = false, useable = true, shouldClose = false, combinable = nil, description = "RB26DETT engine." },
-    2jz = { name = "2jz", label = "2JZ-GTE", weight = 8000, type = "item", image = "2jz.png", unique = false, useable = true, shouldClose = false, combinable = nil, description = "2JZ-GTE engine." },
+    j2z = { name = '2jz', label = '2JZ-GTE', weight = 8000, type = 'item', image = '2jz.png', unique = false, useable = true, shouldClose = false, combinable = nil, description = '2JZ-GTE engine.' },
     semislick = { name = "semislick", label = "Semi Slick Tires", weight = 2500, type = "item", image = "semislick.png", unique = false, useable = true, shouldClose = false, combinable = nil, description = "Semi Slick Tires for your car." },
     slick = { name = "slick", label = "Slick Tires", weight = 2500, type = "item", image = "slick.png", unique = false, useable = true, shouldClose = false, combinable = nil, description = "Slick Tires for your car." },
     race_brakes = { name = "race_brakes", label = "Brembo Brakes", weight = 500, type = "item", image = "race_brakes.png", unique = false, useable = true, shouldClose = false, combinable = nil, description = "Brembo Brakes for your car." },
@@ -1046,97 +1046,97 @@ slicedpotato = { name = "slicedpotato", label = "Sliced Potatoes", weight = 100,
 slicedonion = { name = "slicedonion", label = "Sliced Onions", weight = 100, type = "item", image = "slicedonion.png", unique = false, useable = false, shouldClose = false, combinable = nil, description = "Sliced Onion" },
 
 -- Coffee/Tea uWu
-blueberrybobatea = { name = 'blueberrybobatea', label = 'Blueberry Boba Tea', weight = 300, type = 'item', image = 'blueberrybobatea.png', unique = false, useable = true, shouldClose = false, combinable = nil, description = 'Blueberry Boba Tea' }
-greenbobatea = { name = 'greenbobatea', label = 'Green Boba Tea', weight = 300, type = 'item', image = 'greenbobatea.png', unique = false, useable = false, shouldClose = false, combinable = nil, description = 'Green Boba Tea' }
-orangebobatea = { name = 'orangebobatea', label = 'Orange Boba Tea', weight = 300, type = 'item', image = 'orangebobatea.png', unique = false, useable = false, shouldClose = false, combinable = nil, description = 'Orange Boba Tea' }
-strawberrybobatea = { name = 'strawberrybobatea', label = 'Strawberry Boba Tea', weight = 300, type = 'item', image = 'strawberrybobatea.png', unique = false, useable = false, shouldClose = false, combinable = nil, description = 'Strawberry Boba Tea' }
+blueberrybobatea = { name = 'blueberrybobatea', label = 'Blueberry Boba Tea', weight = 300, type = 'item', image = 'blueberrybobatea.png', unique = false, useable = true, shouldClose = false, combinable = nil, description = 'Blueberry Boba Tea' },
+greenbobatea = { name = 'greenbobatea', label = 'Green Boba Tea', weight = 300, type = 'item', image = 'greenbobatea.png', unique = false, useable = false, shouldClose = false, combinable = nil, description = 'Green Boba Tea' },
+orangebobatea = { name = 'orangebobatea', label = 'Orange Boba Tea', weight = 300, type = 'item', image = 'orangebobatea.png', unique = false, useable = false, shouldClose = false, combinable = nil, description = 'Orange Boba Tea' },
+strawberrybobatea = { name = 'strawberrybobatea', label = 'Strawberry Boba Tea', weight = 300, type = 'item', image = 'strawberrybobatea.png', unique = false, useable = false, shouldClose = false, combinable = nil, description = 'Strawberry Boba Tea' },
 
 -- Heists
-kq_outfitbag = { name = 'kq_outfitbag', label = 'Outfit bag', weight = 4000, type = 'item', image = 'kq_outfitbag.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'Holds different outfits' }
+kq_outfitbag = { name = 'kq_outfitbag', label = 'Outfit bag', weight = 4000, type = 'item', image = 'kq_outfitbag.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'Holds different outfits' },
 
 -- TRClassic Hunting Items
-weapon_huntingrifle = { name = 'weapon_huntingrifle', label = 'Hunting Rifle', weight = 1000, type = 'weapon', ammotype = 'AMMO_SNIPER', image = 'tr_huntingrifle.png', unique = true, useable = false, description = 'Hunting Rifle' }
-tr_hunting_license = { name = 'tr_hunting_license', label = 'Hunting License', weight = 10, type = 'item', image = 'tr_hunting_license.png', unique = true, useable = true, shouldClose = false, combinable = nil, description = 'Legal Hunting License / Permit to hunt' }
-tr_hunting_bait = { name = 'tr_hunting_bait', label = 'Deer Bait', weight = 500, type = 'item', image = 'tr_huntingbait.png', unique = false, useable = true, shouldClose = false, combinable = nil, description = 'Deer Bait' }
-tr_hunting_deer = { name = 'tr_hunting_deer', label = 'Deer', weight = 1500, type = 'item', image = 'tr_hunting_deer.png', unique = false, useable = true, shouldClose = false, combinable = nil, description = 'Deer' }
-tr_skinned_1star = { name = 'tr_skinned_1star', label = 'Deer Skin 1 Star', weight = 1000, type = 'item', image = 'tr_skinned_1star.png', unique = false, useable = true, shouldClose = false, combinable = nil, description = 'Deer Skinned 1 Star Rating' }
-tr_skinned_2star = { name = 'tr_skinned_2star', label = 'Deer Skin 2 Star', weight = 1000, type = 'item', image = 'tr_skinned_2star.png', unique = false, useable = true, shouldClose = false, combinable = nil, description = 'Deer Skinned 2 Star Rating' }
-tr_skinned_3star = { name = 'tr_skinned_3star', label = 'Deer Skin 3 Star', weight = 1000, type = 'item', image = 'tr_skinned_3star.png', unique = false, useable = true, shouldClose = false, combinable = nil, description = 'Deer Skinned 3 Star Rating' }
-tr_raw_deermeat = { name = 'tr_raw_deermeat', label = 'Raw Deer Meat', weight = 50, type = 'item', image = 'tr_raw_deermeat.png', unique = false, useable = true, shouldClose = false, combinable = nil, description = 'Raw Deer Meat' }
-tr_cooked_deermeat = { name = 'tr_cooked_deermeat', label = 'Cooked Deer Meat', weight = 50, type = 'item', image = 'tr_cooked_deermeat.png', unique = false, useable = true, shouldClose = false, combinable = nil, description = 'Cooked Deer Meat' }
-tr_antlers = { name = 'tr_antlers', label = 'Deer Antlers', weight = 75, type = 'item', image = 'tr_antlers.png', unique = false, useable = true, shouldClose = false, combinable = nil, description = 'Deer Antlers' }
+weapon_huntingrifle = { name = 'weapon_huntingrifle', label = 'Hunting Rifle', weight = 1000, type = 'weapon', ammotype = 'AMMO_SNIPER', image = 'tr_huntingrifle.png', unique = true, useable = false, description = 'Hunting Rifle' },
+tr_hunting_license = { name = 'tr_hunting_license', label = 'Hunting License', weight = 10, type = 'item', image = 'tr_hunting_license.png', unique = true, useable = true, shouldClose = false, combinable = nil, description = 'Legal Hunting License / Permit to hunt' },
+tr_hunting_bait = { name = 'tr_hunting_bait', label = 'Deer Bait', weight = 500, type = 'item', image = 'tr_huntingbait.png', unique = false, useable = true, shouldClose = false, combinable = nil, description = 'Deer Bait' },
+tr_hunting_deer = { name = 'tr_hunting_deer', label = 'Deer', weight = 1500, type = 'item', image = 'tr_hunting_deer.png', unique = false, useable = true, shouldClose = false, combinable = nil, description = 'Deer' },
+tr_skinned_1star = { name = 'tr_skinned_1star', label = 'Deer Skin 1 Star', weight = 1000, type = 'item', image = 'tr_skinned_1star.png', unique = false, useable = true, shouldClose = false, combinable = nil, description = 'Deer Skinned 1 Star Rating' },
+tr_skinned_2star = { name = 'tr_skinned_2star', label = 'Deer Skin 2 Star', weight = 1000, type = 'item', image = 'tr_skinned_2star.png', unique = false, useable = true, shouldClose = false, combinable = nil, description = 'Deer Skinned 2 Star Rating' },
+tr_skinned_3star = { name = 'tr_skinned_3star', label = 'Deer Skin 3 Star', weight = 1000, type = 'item', image = 'tr_skinned_3star.png', unique = false, useable = true, shouldClose = false, combinable = nil, description = 'Deer Skinned 3 Star Rating' },
+tr_raw_deermeat = { name = 'tr_raw_deermeat', label = 'Raw Deer Meat', weight = 50, type = 'item', image = 'tr_raw_deermeat.png', unique = false, useable = true, shouldClose = false, combinable = nil, description = 'Raw Deer Meat' },
+tr_cooked_deermeat = { name = 'tr_cooked_deermeat', label = 'Cooked Deer Meat', weight = 50, type = 'item', image = 'tr_cooked_deermeat.png', unique = false, useable = true, shouldClose = false, combinable = nil, description = 'Cooked Deer Meat' },
+tr_antlers = { name = 'tr_antlers', label = 'Deer Antlers', weight = 75, type = 'item', image = 'tr_antlers.png', unique = false, useable = true, shouldClose = false, combinable = nil, description = 'Deer Antlers' },
 
-c4_package = { name = 'c4_package', label = 'C4 Charge', weight = 10000, type = 'item', image = 'c4charge.png', unique = true, useable = true, shouldClose = false, combinable = nil, description = 'Bank Heist' }
+c4_package = { name = 'c4_package', label = 'C4 Charge', weight = 10000, type = 'item', image = 'c4charge.png', unique = true, useable = true, shouldClose = false, combinable = nil, description = 'Bank Heist' },
 
 -- Metaldetector common
-metaldetector = { name = "metaldetector", label = "Metal Detector", weight = 200, type = "item", image = "metaldetector.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "Detect Metal beep" }
-metaltrash = { name = "metaltrash", label = "Metal Trash", weight = 200, type = "item", image = "metaltrash.png", unique = false, useable = false, shouldClose = false, combinable = nil, description = "Trashed Metal" }
-irontrash = { name = "irontrash", label = "Iron Trash", weight = 200, type = "item", image = "irontrash.png", unique = false, useable = false, shouldClose = false, combinable = nil, description = "Trashed Iron" }
-bulletcasings = { name = "bulletcasings", label = "Bullet Casings", weight = 200, type = "item", image = "bulletcasings.png", unique = false, useable = false, shouldClose = false, combinable = nil, description = "Bullet Casings" }
-aluminumcan = { name = "aluminumcan", label = "Aluminium Can", weight = 200, type = "item", image = "aluminiumcan.png", unique = false, useable = false, shouldClose = false, combinable = nil, description = "Aluminum Cans" }
-brokenknife = { name = "brokenknife", label = "Broken Knife", weight = 200, type = "item", image = "brokenknife.png", unique = false, useable = false, shouldClose = false, combinable = nil, description = "Rusted Knife" }
-brokendetector = { name = "brokendetector", label = "Broken Detector", weight = 200, type = "item", image = "brokendetector.png", unique = false, useable = false, shouldClose = false, combinable = nil, description = "A broken metal detector" }
-brokenphone = { name = "brokenphone", label = "Broken Phone", weight = 200, type = "item", image = "brokenphone.png", unique = false, useable = false, shouldClose = false, combinable = nil, description = "Broken Phone" }
-housekeys = { name = "housekeys", label = "House Keys", weight = 200, type = "item", image = "housekey.png", unique = false, useable = false, shouldClose = false, combinable = nil, description = "Random House Keys" }
+metaldetector = { name = "metaldetector", label = "Metal Detector", weight = 200, type = "item", image = "metaldetector.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "Detect Metal beep" },
+metaltrash = { name = "metaltrash", label = "Metal Trash", weight = 200, type = "item", image = "metaltrash.png", unique = false, useable = false, shouldClose = false, combinable = nil, description = "Trashed Metal" },
+irontrash = { name = "irontrash", label = "Iron Trash", weight = 200, type = "item", image = "irontrash.png", unique = false, useable = false, shouldClose = false, combinable = nil, description = "Trashed Iron" },
+bulletcasings = { name = "bulletcasings", label = "Bullet Casings", weight = 200, type = "item", image = "bulletcasings.png", unique = false, useable = false, shouldClose = false, combinable = nil, description = "Bullet Casings" },
+aluminumcan = { name = "aluminumcan", label = "Aluminium Can", weight = 200, type = "item", image = "aluminiumcan.png", unique = false, useable = false, shouldClose = false, combinable = nil, description = "Aluminum Cans" },
+brokenknife = { name = "brokenknife", label = "Broken Knife", weight = 200, type = "item", image = "brokenknife.png", unique = false, useable = false, shouldClose = false, combinable = nil, description = "Rusted Knife" },
+brokendetector = { name = "brokendetector", label = "Broken Detector", weight = 200, type = "item", image = "brokendetector.png", unique = false, useable = false, shouldClose = false, combinable = nil, description = "A broken metal detector" },
+brokenphone = { name = "brokenphone", label = "Broken Phone", weight = 200, type = "item", image = "brokenphone.png", unique = false, useable = false, shouldClose = false, combinable = nil, description = "Broken Phone" },
+housekeys = { name = "housekeys", label = "House Keys", weight = 200, type = "item", image = "housekey.png", unique = false, useable = false, shouldClose = false, combinable = nil, description = "Random House Keys" },
 
 -- Metaldetector rare detectable items
-brokengameboy = { name = "brokengameboy", label = "Broken Gameboy", weight = 200, type = "item", image = "brokengameboy.png", unique = false, useable = false, shouldClose = false, combinable = nil, description = "A Broken Gameboy" }
-burriedtreasure = { name = "burriedtreasure", label = "Buried treasure", weight = 200, type = "item", image = "burriedtreasure.png", unique = false, useable = false, shouldClose = false, combinable = nil, description = "Buried Treasure, woah" }
-treasurekey = { name = "treasurekey", label = "Treasure key", weight = 200, type = "item", image = "treasurekey.png", unique = false, useable = false, shouldClose = false, combinable = nil, description = "A key? Maybe for treasure" }
-antiquecoin = { name = "antiquecoin", label = "Antique Coin", weight = 200, type = "item", image = "antiquecoin.png", unique = false, useable = false, shouldClose = false, combinable = nil, description = "This seems old..." }
-goldennugget = { name = "goldennugget", label = "The Mojave Nugget", weight = 200, type = "item", image = "goldnugget.png", unique = false, useable = false, shouldClose = false, combinable = nil, description = "This seems valuable, hmm" }
-goldcoin = { name = "goldcoin", label = "Gold coin", weight = 200, type = "item", image = "goldcoin.png", unique = false, useable = false, shouldClose = false, combinable = nil, description = "o.O GOLD!" }
-ancientcoin = { name = "ancientcoin", label = "Ancient Coin", weight = 200, type = "item", image = "aincientcoin.png", unique = false, useable = false, shouldClose = false, combinable = nil, description = "This seems really old and unique." }
-ww2relic = { name = "ww2relic", label = "WW2 Relic", weight = 200, type = "item", image = "ww2relic.png", unique = false, useable = false, shouldClose = false, combinable = nil, description = "I remember this from history class." }
-steeltrash = { name = "steeltrash", label = "Steel Trash", weight = 200, type = "item", image = "steelcan.png", unique = false, useable = false, shouldClose = false, combinable = nil, description = "A steel can" }
-pocketwatch = { name = "pocketwatch", label = "Pocket Watch", weight = 200, type = "item", image = "pocketwatch.png", unique = false, useable = false, shouldClose = true, combinable = nil, description = "A pocket watch" }
-gameboy = { name = "gameboy", label = "Gameboy", weight = 200, type = "item", image = "gameboy.png", unique = false, useable = false, shouldClose = true, combinable = nil, description = "A working Gameboy." }
+brokengameboy = { name = "brokengameboy", label = "Broken Gameboy", weight = 200, type = "item", image = "brokengameboy.png", unique = false, useable = false, shouldClose = false, combinable = nil, description = "A Broken Gameboy" },
+burriedtreasure = { name = "burriedtreasure", label = "Buried treasure", weight = 200, type = "item", image = "burriedtreasure.png", unique = false, useable = false, shouldClose = false, combinable = nil, description = "Buried Treasure, woah" },
+treasurekey = { name = "treasurekey", label = "Treasure key", weight = 200, type = "item", image = "treasurekey.png", unique = false, useable = false, shouldClose = false, combinable = nil, description = "A key? Maybe for treasure" },
+antiquecoin = { name = "antiquecoin", label = "Antique Coin", weight = 200, type = "item", image = "antiquecoin.png", unique = false, useable = false, shouldClose = false, combinable = nil, description = "This seems old..." },
+goldennugget = { name = "goldennugget", label = "The Mojave Nugget", weight = 200, type = "item", image = "goldnugget.png", unique = false, useable = false, shouldClose = false, combinable = nil, description = "This seems valuable, hmm" },
+goldcoin = { name = "goldcoin", label = "Gold coin", weight = 200, type = "item", image = "goldcoin.png", unique = false, useable = false, shouldClose = false, combinable = nil, description = "o.O GOLD!" },
+ancientcoin = { name = "ancientcoin", label = "Ancient Coin", weight = 200, type = "item", image = "aincientcoin.png", unique = false, useable = false, shouldClose = false, combinable = nil, description = "This seems really old and unique." },
+ww2relic = { name = "ww2relic", label = "WW2 Relic", weight = 200, type = "item", image = "ww2relic.png", unique = false, useable = false, shouldClose = false, combinable = nil, description = "I remember this from history class." },
+steeltrash = { name = "steeltrash", label = "Steel Trash", weight = 200, type = "item", image = "steelcan.png", unique = false, useable = false, shouldClose = false, combinable = nil, description = "A steel can" },
+pocketwatch = { name = "pocketwatch", label = "Pocket Watch", weight = 200, type = "item", image = "pocketwatch.png", unique = false, useable = false, shouldClose = true, combinable = nil, description = "A pocket watch" },
+gameboy = { name = "gameboy", label = "Gameboy", weight = 200, type = "item", image = "gameboy.png", unique = false, useable = false, shouldClose = true, combinable = nil, description = "A working Gameboy." },
 
 -- PALETO / SANDY FARM
-apples = { name = "apples", label = "Apple", weight = 150, type = "item", image = "apples.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-apple_juice = { name = "apple_juice", label = "Apple Juice", weight = 200, type = "item", image = "apple_juice.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-emptycowbucket = { name = "emptycowbucket", label = "Empty Bucket", weight = 900, type = "item", image = "emptybucket.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-milkbucket = { name = "milkbucket", label = "Milk Bucket", weight = 5000, type = "item", image = "milkbucket.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-raw_beef = { name = "raw_beef", label = "Raw Beef", weight = 25, type = "item", image = "raw_beef.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-beef = { name = "beef", label = "Beef", weight = 25, type = "item", image = "beef.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-milk = { name = "milk", label = "Milk", weight = 500, type = "item", image = "milk.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-rawpumpkin = { name = "rawpumpkin", label = "Raw Pumpkin", weight = 2500, type = "item", image = "raw_pumpkin.png", unique = false, useable = false, shouldClose = true, combinable = nil, description = "" }
-pumpkinpiebox = { name = "pumpkinpiebox", label = "Box of Pie", weight = 500, type = "item", image = "pumpkinpiebox.png", unique = false, useable = true, shouldClose = true, combinable = {accept = {'weapon_knife'}, reward = 'slicedpie', anim = {['dict'] = 'anim@amb@business@weed@weed_inspecting_high_dry@', ['lib'] = 'weed_inspecting_high_base_inspector', ['text'] = '', ['timeOut'] = 7500,}}, description = "" }
-slicedpie = { name = "slicedpie", label = "Slice of Pie", weight = 100, type = "item", image = "slicedpie.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-corncob = { name = "corncob", label = "Corn Cob", weight = 250, type = "item", image = "corncob.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-canofcorn = { name = "canofcorn", label = "Can Of Corn", weight = 500, type = "item", image = "canofcorn.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-grapes = { name = "grapes", label = "Grapes", weight = 100, type = "item", image = "grapes.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-grapejuice = { name = "grapejuice", label = "Grape Juice", weight = 150, type = "item", image = "grapejuice.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-greenpepper = { name = "greenpepper", label = "Green Pepper", weight = 25, type = "item", image = "greenpepper.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chillypepper = { name = "chillypepper", label = "Chilly Pepper", weight = 25, type = "item", image = "chillypepper.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-hotsauce = { name = "hotsauce", label = "Hot Sauce", weight = 100, type = "item", image = "hotsauce.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-tomato = { name = "tomato", label = "Tomato", weight = 150, type = "item", image = "tomato.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-tomatopaste = { name = "tomatopaste", label = "Tomato Paste", weight = 500, type = "item", image = "tomatopaste.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-soybeans = { name = "soybeans", label = "Soy Beans", weight = 10, type = "item", image = "soybeans.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-raw_bacon = { name = "raw_bacon", label = "Raw Bacon", weight = 25, type = "item", image = "raw_bacon.png", unique = false, useable = false, shouldClose = true, combinable = nil, description = "" }
-raw_sausage = { name = "raw_sausage", label = "Raw Sausage", weight = 25, type = "item", image = "raw_sausage.png", unique = false, useable = false, shouldClose = true, combinable = nil, description = "" }
-raw_pork = { name = "raw_pork", label = "Raw Pork", weight = 25, type = "item", image = "raw_pork.png", unique = false, useable = false, shouldClose = true, combinable = nil, description = "" }
-raw_ham = { name = "raw_ham", label = "Raw Ham", weight = 25, type = "item", image = "raw_ham.png", unique = false, useable = false, shouldClose = true, combinable = nil, description = "" }
-cooked_bacon = { name = "cooked_bacon", label = "Cooked Bacon", weight = 25, type = "item", image = "cooked_bacon.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-cooked_sausage = { name = "cooked_sausage", label = "Cooked Sausage", weight = 25, type = "item", image = "cooked_sausage.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-cooked_pork = { name = "cooked_pork", label = "Cooked Pork", weight = 25, type = "item", image = "cooked_pork.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-cooked_ham = { name = "cooked_ham", label = "Cooked Ham", weight = 25, type = "item", image = "cooked_ham.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-pig_leather = { name = "pig_leather", label = "Pig Skin", weight = 50, type = "item", image = "pig_leather.png", unique = false, useable = false, shouldClose = true, combinable = nil, description = "" }
-cow_leather = { name = "cow_leather", label = "Cow Skin", weight = 50, type = "item", image = "cow_leather.png", unique = false, useable = false, shouldClose = true, combinable = nil, description = "" }
+apples = { name = "apples", label = "Apple", weight = 150, type = "item", image = "apples.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+apple_juice = { name = "apple_juice", label = "Apple Juice", weight = 200, type = "item", image = "apple_juice.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+emptycowbucket = { name = "emptycowbucket", label = "Empty Bucket", weight = 900, type = "item", image = "emptybucket.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+milkbucket = { name = "milkbucket", label = "Milk Bucket", weight = 5000, type = "item", image = "milkbucket.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+raw_beef = { name = "raw_beef", label = "Raw Beef", weight = 25, type = "item", image = "raw_beef.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+beef = { name = "beef", label = "Beef", weight = 25, type = "item", image = "beef.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+milk = { name = "milk", label = "Milk", weight = 500, type = "item", image = "milk.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+rawpumpkin = { name = "rawpumpkin", label = "Raw Pumpkin", weight = 2500, type = "item", image = "raw_pumpkin.png", unique = false, useable = false, shouldClose = true, combinable = nil, description = "" },
+pumpkinpiebox = { name = "pumpkinpiebox", label = "Box of Pie", weight = 500, type = "item", image = "pumpkinpiebox.png", unique = false, useable = true, shouldClose = true, combinable = {accept = {'weapon_knife'}, reward = 'slicedpie', anim = {['dict'] = 'anim@amb@business@weed@weed_inspecting_high_dry@', ['lib'] = 'weed_inspecting_high_base_inspector', ['text'] = '', ['timeOut'] = 7500,}}, description = "" },
+slicedpie = { name = "slicedpie", label = "Slice of Pie", weight = 100, type = "item", image = "slicedpie.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+corncob = { name = "corncob", label = "Corn Cob", weight = 250, type = "item", image = "corncob.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+canofcorn = { name = "canofcorn", label = "Can Of Corn", weight = 500, type = "item", image = "canofcorn.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+grapes = { name = "grapes", label = "Grapes", weight = 100, type = "item", image = "grapes.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+grapejuice = { name = "grapejuice", label = "Grape Juice", weight = 150, type = "item", image = "grapejuice.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+greenpepper = { name = "greenpepper", label = "Green Pepper", weight = 25, type = "item", image = "greenpepper.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chillypepper = { name = "chillypepper", label = "Chilly Pepper", weight = 25, type = "item", image = "chillypepper.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+hotsauce = { name = "hotsauce", label = "Hot Sauce", weight = 100, type = "item", image = "hotsauce.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+tomato = { name = "tomato", label = "Tomato", weight = 150, type = "item", image = "tomato.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+tomatopaste = { name = "tomatopaste", label = "Tomato Paste", weight = 500, type = "item", image = "tomatopaste.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+soybeans = { name = "soybeans", label = "Soy Beans", weight = 10, type = "item", image = "soybeans.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+raw_bacon = { name = "raw_bacon", label = "Raw Bacon", weight = 25, type = "item", image = "raw_bacon.png", unique = false, useable = false, shouldClose = true, combinable = nil, description = "" },
+raw_sausage = { name = "raw_sausage", label = "Raw Sausage", weight = 25, type = "item", image = "raw_sausage.png", unique = false, useable = false, shouldClose = true, combinable = nil, description = "" },
+raw_pork = { name = "raw_pork", label = "Raw Pork", weight = 25, type = "item", image = "raw_pork.png", unique = false, useable = false, shouldClose = true, combinable = nil, description = "" },
+raw_ham = { name = "raw_ham", label = "Raw Ham", weight = 25, type = "item", image = "raw_ham.png", unique = false, useable = false, shouldClose = true, combinable = nil, description = "" },
+cooked_bacon = { name = "cooked_bacon", label = "Cooked Bacon", weight = 25, type = "item", image = "cooked_bacon.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+cooked_sausage = { name = "cooked_sausage", label = "Cooked Sausage", weight = 25, type = "item", image = "cooked_sausage.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+cooked_pork = { name = "cooked_pork", label = "Cooked Pork", weight = 25, type = "item", image = "cooked_pork.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+cooked_ham = { name = "cooked_ham", label = "Cooked Ham", weight = 25, type = "item", image = "cooked_ham.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+pig_leather = { name = "pig_leather", label = "Pig Skin", weight = 50, type = "item", image = "pig_leather.png", unique = false, useable = false, shouldClose = true, combinable = nil, description = "" },
+cow_leather = { name = "cow_leather", label = "Cow Skin", weight = 50, type = "item", image = "cow_leather.png", unique = false, useable = false, shouldClose = true, combinable = nil, description = "" },
 
 -- TUNA FARM ITEMS
-fruitCrate = { name = 'fruitCrate', label = 'Fruit Crate', weight = 1000, type = 'item', image = 'fruitcrate.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'Fruit Crate' }
-fruitBasket = { name = 'fruitBasket', label = 'Fruit Basket', weight = 1000, type = 'item', image = 'fruitbasket.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'Fruit Basket' }
-waterCan = { name = 'waterCan', label = 'Watercan', weight = 1000, type = 'item', image = 'watercan.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'Water Can' }
-tomatoSeed = { name = 'tomatoSeed', label = 'Tomato Seed', weight = 50, type = 'item', image = 'tomatoseed.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'Tomato Seed' }
-plantFertilizer = { name = 'plantFertilizer', label = 'Plant Fertilizer', weight = 1000, type = 'item', image = 'plant_fertilizer.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'Plant Fertilizer' }
+fruitCrate = { name = 'fruitCrate', label = 'Fruit Crate', weight = 1000, type = 'item', image = 'fruitcrate.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'Fruit Crate' },
+fruitBasket = { name = 'fruitBasket', label = 'Fruit Basket', weight = 1000, type = 'item', image = 'fruitbasket.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'Fruit Basket' },
+waterCan = { name = 'waterCan', label = 'Watercan', weight = 1000, type = 'item', image = 'watercan.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'Water Can' },
+tomatoSeed = { name = 'tomatoSeed', label = 'Tomato Seed', weight = 50, type = 'item', image = 'tomatoseed.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'Tomato Seed' },
+plantFertilizer = { name = 'plantFertilizer', label = 'Plant Fertilizer', weight = 1000, type = 'item', image = 'plant_fertilizer.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'Plant Fertilizer' },
 
 -- vanila menu item
-vanillaMenu = { name = 'vanillamenu', label = 'Vanilla Unicorn Special Services', weight = 100, type = 'item', image = 'vanillamenu.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'Vanilla Unicorn Special Services' }
-vanillaSpecialMenu = { name = 'vanillspecialamenu', label = 'Vanilla Unicorn Special Services', weight = 100, type = 'item', image = 'vanillaspecialmenu.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'Vanilla Unicorn Special Services' }
+vanillaMenu = { name = 'vanillamenu', label = 'Vanilla Unicorn Special Services', weight = 100, type = 'item', image = 'vanillamenu.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'Vanilla Unicorn Special Services' },
+vanillaSpecialMenu = { name = 'vanillspecialamenu', label = 'Vanilla Unicorn Special Services', weight = 100, type = 'item', image = 'vanillaspecialmenu.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'Vanilla Unicorn Special Services' },
 
 -- promo codes
-governmentCode = { name = 'governmentcode', label = 'Government Code', weight = 0, type = 'item', image = 'promocodes.png', unique = true, useable = false, shouldClose = false, combinable = nil, description = 'A code which can be redeemed somewhere... Cough cough /redeemp {code}' }
+governmentCode = { name = 'governmentcode', label = 'Government Code', weight = 0, type = 'item', image = 'promocodes.png', unique = true, useable = false, shouldClose = false, combinable = nil, description = 'A code which can be redeemed somewhere... Cough cough /redeemp {code}' },
 
 -- Pizzeria
 pmenu = {name = 'pmenu', label = 'Pizza This Menu', weight = 120, type = 'item', image = 'pmenu.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'Pizza This Menu'},
@@ -1215,7 +1215,7 @@ pmargharitaslice = { name = 'pmargharitaslice', label = 'Margherita Slice', weig
 pnapollitanoslice = { name = 'pnapollitanoslice', label = 'Napoletano Slice', weight = 250, type = 'item', image = 'ppizzaslice.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'Napoletano Slice' },
 pmushroomspizzaslice = { name = 'pmushroomspizzaslice', label = 'Fungi Slice', weight = 250, type = 'item', image = 'ppizzaslice.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'Fungi Slice' },
 pseafoodslice = { name = 'pseafoodslice', label = 'Seafood Slice', weight = 250, type = 'item', image = 'ppizzaslice.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'Seafood Slice' },
-pvegpizzaslice = { name = 'pvegpizzaslice', label = 'Vegi Slice', weight = 250, type = 'item', image = 'ppizzaslice.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'Vegi Slice' }
+pvegpizzaslice = { name = 'pvegpizzaslice', label = 'Vegi Slice', weight = 250, type = 'item', image = 'ppizzaslice.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'Vegi Slice' },
 
 --polaroid
 polaroid_camera = { name = 'polaroid_camera', label = 'Polaroid Camera', weight = 1500, type = 'item', image = 'polaroid.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'Did we just go back in time?' },
@@ -1249,7 +1249,7 @@ bubblegum_gumball = { name = 'bubblegum_gumball', label = 'BubbleGum GumBall', w
 blueberry_gumball = { name = 'blueberry_gumball', label = 'Blueberry GumBall', weight = 50, type = 'item', image = 'blueberry_gumball.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'A Blueberry GumBall from the local Store!', created = nil, decay = 6.5 },
 banana_gumball = { name = 'banana_gumball', label = 'Banana GumBall', weight = 50, type = 'item', image = 'banana_gumball.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'A Banana GumBall from the local Store!', created = nil, decay = 6.5 },
 mint_gumball = { name = 'mint_gumball', label = 'Mint GumBall', weight = 50, type = 'item', image = 'mint_gumball.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'A Mint GumBall from the local Store!', created = nil, decay = 6.5 },
-cherry_gumball = { name = 'cherry_gumball', label = 'Cherry GumBall', weight = 50, type = 'item', image = 'cherry_gumball.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'A Cherry GumBall from the local Store!', created = nil, decay = 6.5 }
+cherry_gumball = { name = 'cherry_gumball', label = 'Cherry GumBall', weight = 50, type = 'item', image = 'cherry_gumball.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'A Cherry GumBall from the local Store!', created = nil, decay = 6.5 },
 
 -- Drugs
 joint = { name = 'joint', label = 'Joint', weight = 10, type = 'item', image = 'joint.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'Sidney would be very proud at you' },
@@ -1307,8 +1307,9 @@ treasuremap = { name = "treasuremap", label = "Treasure Map", weight = 100, type
 licenseplate = { name = "licenseplate", label = "License Plate", weight = 400, type = "item", image = "licenseplate.png", unique = true, useable = true, shouldClose = true, combinable = nil, description = "A License Plate" },
 race_brakes = { name = "race_brakes", label = "Race Brakes", weight = 400, type = "item", image = "race_brakes.png", unique = true, useable = true, shouldClose = true, combinable = nil, description = "Race Brakes" },
 michelin_tires = { name = "michelin_tires", label = "Michelin Tires", weight = 30, type = "item", image = "licenseplate.png", unique = true, useable = true, shouldClose = true, combinable = nil, description = "Michelin Tires" },
+
 -- Car Engines
-_2jzengine = { name = "2jzengine", label = "2JZ Engine", weight = 30, type = "item", image = "licenseplate.png", unique = true, useable = true, shouldClose = true, combinable = nil, description = "2JZ Engine" },
+j2zengine = { name = '2jzengine', label = '2jz Engine', weight = 30, type = 'item', image = 'licenseplate.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = '2jz Engine' },
 v8engine = { name = "v8engine", label = "V8 Engine", weight = 30, type = "item", image = "licenseplate.png", unique = true, useable = true, shouldClose = true, combinable = nil, description = "V8 Engine" },
 race_suspension = { name = "race_suspension", label = "Race Suspension", weight = 30, image = "licenseplate.png", unique = true, useable = true, combinable = nil, description = "Race Suspension" },
 race_transmition = { name = "race_transmition", label = "Race Transmission", weight = 30, type = "item", image = "licenseplate.png", unique = true, useable = true, shouldClose = true, combinable = nil, description = "Race Transmission" },
@@ -1434,7 +1435,7 @@ orange_xtc4 = { name = 'orange_xtc4', label = 'Quad Stack Orange XTC', weight = 
 blue_xtc = { name = 'blue_xtc', label = 'Single Stack Blue XTC', weight = 100, type = 'item', image = 'unstampedblue.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = '' },
 blue_xtc2 = { name = 'blue_xtc2', label = 'Dual Stack Blue XTC', weight = 100, type = 'item', image = 'unstampedblue.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = '' },
 blue_xtc3 = { name = 'blue_xtc3', label = 'Triple Stack Blue XTC', weight = 100, type = 'item', image = 'unstampedblue.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = '' },
-blue_xtc4 = { name = 'blue_xtc4', label = 'Quad Stack Blue XTC', weight = 100, type = 'item', image = 'unstampedblue.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = '' }
+blue_xtc4 = { name = 'blue_xtc4', label = 'Quad Stack Blue XTC', weight = 100, type = 'item', image = 'unstampedblue.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = '' },
 
 -- Playboys
 white_playboys = { name = "white_playboys", label = "Single Stack White Playboys", weight = 100, type = "item", image = "playboy_white.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = '' },
@@ -1595,7 +1596,7 @@ camera = { name = 'camera', label = 'CCTV Camera', weight = 1000, type = 'item',
 -- Backpacks
 backpack_small = { name = 'backpack_small', label = 'Small Backpack', weight = 1000, type = 'item', image = 'small_backpack.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A small backpack to carry more items at once' },
 backpack_medium = { name = 'backpack_medium', label = 'Medium Backpack', weight = 3500, type = 'item', image = 'medium_backpack.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A medium backpack to carry more items at once' },
-backpack_large = { name = 'backpack_large', label = 'Large Backpack', weight = 8000, type = 'item', image = 'large_backpack.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A large backpack to carry more items at once' }
+backpack_large = { name = 'backpack_large', label = 'Large Backpack', weight = 8000, type = 'item', image = 'large_backpack.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A large backpack to carry more items at once' },
 
 -- Meth Lab
 acetone = { name = "acetone", label = "Acetone", weight = 500, type = "item", image = "acetone.png", unique = true, useable = true, shouldClose = true, combinable = nil, description = "Usable for cooking meth" },
@@ -1606,7 +1607,7 @@ ethanol_alcohol = { name = "ethanol_alcohol", label = "Ethanol Alcohol", weight 
 -- Lumberjack
 tree_lumber = { name = "tree_lumber", label = "Lumber", weight = 1500, type = "item", image = "lumber.png", unique = false, useable = false, shouldClose = true, combinable = nil, description = "" },
 tree_bark = { name = "tree_bark", label = "Tree Bark", weight = 500, type = "item", image = "treebark.png", unique = false, useable = false, shouldClose = true, combinable = nil, description = "" },
-wood_plank = { name = "wood_plank", label = "Wood Plank", weight = 2000, type = "item", image = "woodplank.png", unique = false, useable = false, shouldClose = true, combinable = nil, description = "" }
+wood_plank = { name = "wood_plank", label = "Wood Plank", weight = 2000, type = "item", image = "woodplank.png", unique = false, useable = false, shouldClose = true, combinable = nil, description = "" },
 
 -- Secret Weapons Ammo
 bzgas_ammo = { name = "bzgas_ammo", label = "BZGas Ammo", weight = 1000, type = "item", image = "pistol_ammo.png", unique = false, useable = true, shouldClose = false, combinable = nil, description = "Ammunition intended for Pistols." },
@@ -1623,134 +1624,134 @@ condom = { name = "condom", label = "Condom", weight = 100, type = "item", image
 levonorgestrel = { name = "levonorgestrel", label = "Levonorgestrel", weight = 100, type = "item", image = "levonorgestrel.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "Levonorgestrel" },
 mifepristone = { name = "mifepristone", label = "Mifepristone", weight = 100, type = "item", image = "mifepristone.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "Mifepristone" },
 testpack = { name = "testpack", label = "Test Pack", weight = 100, type = "item", image = "testpack.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "Test Pack" },
-viagra = { name = "viagra", label = "Viagra", weight = 100, type = "item", image = "viagra.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "Viagra" }
+viagra = { name = "viagra", label = "Viagra", weight = 100, type = "item", image = "viagra.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "Viagra" },
 
 -- AI Photography Items
 dslrcamera = { name = "dslrcamera", label = "DSLR Camera", weight = 1000, type = "item", image = "dslrcamera.png", unique = true, useable = true, shouldClose = true, combinable = nil, description = "Experience the power of a DSLR Camera with an impressive cloud uplink. It's the epitome of coolness." },
 mirrorless = { name = "mirrorless", label = "Mirrorless Camera", weight = 1000, type = "item", image = "dslrcamera.png", unique = true, useable = true, shouldClose = true, combinable = nil, description = "Discover the wonders of a Mirrorless Camera, equipped with a cutting-edge cloud uplink. It's the embodiment of coolness." },
 Leica = { name = "Leica", label = "LEICA Camera", weight = 1000, type = "item", image = "dslrcamera.png", unique = true, useable = true, shouldClose = true, combinable = nil, description = "Indulge in the sophistication of a LEICA Camera, boasting a remarkable cloud uplink. It's the pinnacle of coolness." },
 sonya7r2 = { name = "sonya7r2", label = "Sony A7rII Camera", weight = 1000, type = "item", image = "dslrcamera.png", unique = true, useable = true, shouldClose = true, combinable = nil, description = "Unleash your creativity with the Sony A7rII Camera, featuring an innovative cloud uplink. It's the essence of coolness." },
-canoneosr5 = { name = "canoneosr5", label = "Canon Eos R5 Camera", weight = 1000, type = "item", image = "dslrcamera.png", unique = true, useable = true, shouldClose = true, combinable = nil, description = "Immerse yourself in the world of photography with the Canon Eos R5 Camera, accompanied by a cutting-edge cloud uplink. It's the epitome of coolness." }
+canoneosr5 = { name = "canoneosr5", label = "Canon Eos R5 Camera", weight = 1000, type = "item", image = "dslrcamera.png", unique = true, useable = true, shouldClose = true, combinable = nil, description = "Immerse yourself in the world of photography with the Canon Eos R5 Camera, accompanied by a cutting-edge cloud uplink. It's the epitome of coolness." },
 
 -- Car Keys
-keyfob = { name = "keyfob", label = "Car Key Fob", weight = 0.02, type = "item", image = "fob.png", unique = true, useable = true, shouldClose = true, combinable = nil, description = "Key Fob for car!" }
-keyring = { name = "keyring", label = "Car Key Ring", weight = 100, type = "item", image = "keyring.png", unique = true, useable = true, shouldClose = true, combinable = nil, description = "Key ring for car fobs and keys!" }
+keyfob = { name = "keyfob", label = "Car Key Fob", weight = 0.02, type = "item", image = "fob.png", unique = true, useable = true, shouldClose = true, combinable = nil, description = "Key Fob for car!" },
+keyring = { name = "keyring", label = "Car Key Ring", weight = 100, type = "item", image = "keyring.png", unique = true, useable = true, shouldClose = true, combinable = nil, description = "Key ring for car fobs and keys!" },
 
 -- Bank Items
-banktablet = { name = "banktablet", label = "Banker Tablet", weight = 500, type = "item", image = "missiontablet.png", unique = true, useable = true, shouldClose = true, combinable = nil, description = "A Secure Tablet for Bankers!" }
-bankinvoice = { name = "bankinvoice", label = "Bank Invoice", weight = 0, type = "item", image = "stickynote.png", unique = true, useable = false, shouldClose = false, combinable = nil, description = "Invoice from the bank" }
+banktablet = { name = "banktablet", label = "Banker Tablet", weight = 500, type = "item", image = "missiontablet.png", unique = true, useable = true, shouldClose = true, combinable = nil, description = "A Secure Tablet for Bankers!" },
+bankinvoice = { name = "bankinvoice", label = "Bank Invoice", weight = 0, type = "item", image = "stickynote.png", unique = true, useable = false, shouldClose = false, combinable = nil, description = "Invoice from the bank" },
 
 -- Fish Items
-fish = { name = "fish", label = "Fish", weight = 50, type = "item", image = "fish.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "Fish for Fishing." }
-killerwhalemeat = { name = "killerwhalemeat", label = "Killer Whale Meat", weight = 3500, type = "item", image = "killerwhalemeat.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "Meat from a Killer Whale." }
-stingraymeat = { name = "stingraymeat", label = "Stingray Meat", weight = 1500, type = "item", image = "stingraymeat.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "Meat from a Stingray." }
-tigersharkmeat = { name = "tigersharkmeat", label = "Tigershark Meat", weight = 8000, type = "item", image = "tigersharkmeat.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "Meat from a Tigershark." }
-catfish = { name = "catfish", label = "Catfish", weight = 150, type = "item", image = "catfish.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "Catfish for Fishing." }
-salmon = { name = "salmon", label = "Salmon", weight = 100, type = "item", image = "salmon.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "Salmon for Fishing." }
-largemouthbass = { name = "largemouthbass", label = "Largemouth Bass", weight = 300, type = "item", image = "largemouthbass.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "Largemouth Bass for Fishing." }
-goldfish = { name = "goldfish", label = "Goldfish", weight = 50, type = "item", image = "goldfish.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "Goldfish for Fishing." }
-redfish = { name = "redfish", label = "Redfish", weight = 100, type = "item", image = "redfish.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "Redfish for Fishing." }
-bluefish = { name = "bluefish", label = "Bluefish", weight = 100, type = "item", image = "bluefish.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "Bluefish for Fishing." }
-stripedbass = { name = "stripedbass", label = "Striped Bass", weight = 150, type = "item", image = "stripedbass.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "Striped Bass for Fishing." }
-fishingrod = { name = "fishingrod", label = "Fishing Rod", weight = 850, type = "item", image = "fishingrod.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "A fishing rod for adventures with friends!" }
-fishbait = { name = "fishbait", label = "Fish Bait", weight = 10, type = "item", image = "fishbait.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "A fish bait." }
-fishingline = { name = "fishingline", label = "Fishing Line", weight = 10, type = "item", image = "fishingline.png", unique = false, useable = false, shouldClose = true, combinable = nil, description = "A fishing line." }
-bamboostick = { name = "bamboostick", label = "Bamboo Stick", weight = 100, type = "item", image = "bamboostick.png", unique = false, useable = false, shouldClose = true, combinable = nil, description = "Bamboo Stick for Rod." }
-fishingbait = { name = "fishingbait", label = "Fish Bait", weight = 400, type = "item", image = "fishbait.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "A fish bait." }
+fish = { name = "fish", label = "Fish", weight = 50, type = "item", image = "fish.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "Fish for Fishing." },
+killerwhalemeat = { name = "killerwhalemeat", label = "Killer Whale Meat", weight = 3500, type = "item", image = "killerwhalemeat.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "Meat from a Killer Whale." },
+stingraymeat = { name = "stingraymeat", label = "Stingray Meat", weight = 1500, type = "item", image = "stingraymeat.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "Meat from a Stingray." },
+tigersharkmeat = { name = "tigersharkmeat", label = "Tigershark Meat", weight = 8000, type = "item", image = "tigersharkmeat.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "Meat from a Tigershark." },
+catfish = { name = "catfish", label = "Catfish", weight = 150, type = "item", image = "catfish.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "Catfish for Fishing." },
+salmon = { name = "salmon", label = "Salmon", weight = 100, type = "item", image = "salmon.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "Salmon for Fishing." },
+largemouthbass = { name = "largemouthbass", label = "Largemouth Bass", weight = 300, type = "item", image = "largemouthbass.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "Largemouth Bass for Fishing." },
+goldfish = { name = "goldfish", label = "Goldfish", weight = 50, type = "item", image = "goldfish.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "Goldfish for Fishing." },
+redfish = { name = "redfish", label = "Redfish", weight = 100, type = "item", image = "redfish.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "Redfish for Fishing." },
+bluefish = { name = "bluefish", label = "Bluefish", weight = 100, type = "item", image = "bluefish.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "Bluefish for Fishing." },
+stripedbass = { name = "stripedbass", label = "Striped Bass", weight = 150, type = "item", image = "stripedbass.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "Striped Bass for Fishing." },
+fishingrod = { name = "fishingrod", label = "Fishing Rod", weight = 850, type = "item", image = "fishingrod.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "A fishing rod for adventures with friends!" },
+fishbait = { name = "fishbait", label = "Fish Bait", weight = 10, type = "item", image = "fishbait.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "A fish bait." },
+fishingline = { name = "fishingline", label = "Fishing Line", weight = 10, type = "item", image = "fishingline.png", unique = false, useable = false, shouldClose = true, combinable = nil, description = "A fishing line." },
+bamboostick = { name = "bamboostick", label = "Bamboo Stick", weight = 100, type = "item", image = "bamboostick.png", unique = false, useable = false, shouldClose = true, combinable = nil, description = "Bamboo Stick for Rod." },
+fishingbait = { name = "fishingbait", label = "Fish Bait", weight = 400, type = "item", image = "fishbait.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "A fish bait." },
 
 -- Core Evidence Items
-uvlight = { name = "uvlight", label = "UV Flashlight", weight = 300, type = "item", image = "uvlight.png", unique = true, useable = true, shouldClose = true, combinable = nil, description = "A flashlight to see fingerprints" }
-bodycam = { name = "bodycam", label = "Body Camera", weight = 20, type = "item", image = "bodycam.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "Body Camera" }
-rentalpapers = { name = "rentalpapers", label = "Rental Papers", weight = 10, type = "item", image = "rentalpapers.png", unique = true, useable = false, shouldClose = false, combinable = nil, description = "Yea, these are my car rental papers. I can prove it!" }
+uvlight = { name = "uvlight", label = "UV Flashlight", weight = 300, type = "item", image = "uvlight.png", unique = true, useable = true, shouldClose = true, combinable = nil, description = "A flashlight to see fingerprints" },
+bodycam = { name = "bodycam", label = "Body Camera", weight = 20, type = "item", image = "bodycam.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "Body Camera" },
+rentalpapers = { name = "rentalpapers", label = "Rental Papers", weight = 10, type = "item", image = "rentalpapers.png", unique = true, useable = false, shouldClose = false, combinable = nil, description = "Yea, these are my car rental papers. I can prove it!" },
 
 -- Sign Robbery Items
-stopsign = { name = "stopsign", label = "Stop Sign", weight = 1, type = "item", image = "stopsign.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "Stop Sign" }
-walkingmansign = { name = "walkingmansign", label = "Pedestrian Sign", weight = 1, type = "item", image = "walkingmansign.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "Pedestrian Sign" }
-dontblockintersectionsign = { name = "dontblockintersectionsign", label = "Intersection Sign", weight = 1, type = "item", image = "dontblockintersectionsign.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "Intersection Sign" }
-uturnsign = { name = "uturnsign", label = "U Turn Sign", weight = 1, type = "item", image = "uturnsign.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "U Turn Sign" }
-noparkingsign = { name = "noparkingsign", label = "No Parking Sign", weight = 1, type = "item", image = "noparkingsign.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "No Parking Sign" }
-leftturnsign = { name = "leftturnsign", label = "Left Turn Sign", weight = 1, type = "item", image = "leftturnsign.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "Left Turn Sign" }
-rightturnsign = { name = "rightturnsign", label = "Right Turn Sign", weight = 1, type = "item", image = "rightturnsign.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "Right Turn Sign" }
-notrespassingsign = { name = "notrespassingsign", label = "No Trespassing Sign", weight = 1, type = "item", image = "notrespassingsign.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "No Trespassing Sign" }
-yieldsign = { name = "yieldsign", label = "Yield Sign", weight = 1, type = "item", image = "yieldsign.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "Yield Sign" }
+stopsign = { name = "stopsign", label = "Stop Sign", weight = 1, type = "item", image = "stopsign.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "Stop Sign" },
+walkingmansign = { name = "walkingmansign", label = "Pedestrian Sign", weight = 1, type = "item", image = "walkingmansign.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "Pedestrian Sign" },
+dontblockintersectionsign = { name = "dontblockintersectionsign", label = "Intersection Sign", weight = 1, type = "item", image = "dontblockintersectionsign.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "Intersection Sign" },
+uturnsign = { name = "uturnsign", label = "U Turn Sign", weight = 1, type = "item", image = "uturnsign.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "U Turn Sign" },
+noparkingsign = { name = "noparkingsign", label = "No Parking Sign", weight = 1, type = "item", image = "noparkingsign.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "No Parking Sign" },
+leftturnsign = { name = "leftturnsign", label = "Left Turn Sign", weight = 1, type = "item", image = "leftturnsign.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "Left Turn Sign" },
+rightturnsign = { name = "rightturnsign", label = "Right Turn Sign", weight = 1, type = "item", image = "rightturnsign.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "Right Turn Sign" },
+notrespassingsign = { name = "notrespassingsign", label = "No Trespassing Sign", weight = 1, type = "item", image = "notrespassingsign.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "No Trespassing Sign" },
+yieldsign = { name = "yieldsign", label = "Yield Sign", weight = 1, type = "item", image = "yieldsign.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "Yield Sign" },
 
 -- Grave Heist Items
-shovel = { name = 'shovel', label = 'Shovel', weight = 1500, type = 'item', image = 'shovel.png', unique = false, useable = false, shouldClose = false, combinable = nil, description = 'Get Digging!' }
-grub = { name = 'grub', label = 'Grub', weight = 100, type = 'item', image = 'grub.png', unique = false, useable = false, shouldClose = false, combinable = nil, description = 'That\'s what you get for robbing graves..' }
+shovel = { name = 'shovel', label = 'Shovel', weight = 1500, type = 'item', image = 'shovel.png', unique = false, useable = false, shouldClose = false, combinable = nil, description = 'Get Digging!' },
+grub = { name = 'grub', label = 'Grub', weight = 100, type = 'item', image = 'grub.png', unique = false, useable = false, shouldClose = false, combinable = nil, description = 'That\'s what you get for robbing graves..' },
 
 -- Gangs and Garages Items
-midnightdrivers = { name = 'midnightdrivers', label = 'The Garage Key', weight = 50, type = 'item', image = 'midnightdrivers.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'Special Key to open the garage door.' }
-specialforcekey = { name = 'specialforcekey', label = 'The Special Force Key', weight = 50, type = 'item', image = 'specialforcekey.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'Special Key to open the Special Force door.' }
+midnightdrivers = { name = 'midnightdrivers', label = 'The Garage Key', weight = 50, type = 'item', image = 'midnightdrivers.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'Special Key to open the garage door.' },
+specialforcekey = { name = 'specialforcekey', label = 'The Special Force Key', weight = 50, type = 'item', image = 'specialforcekey.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'Special Key to open the Special Force door.' },
 
 -- Lifeinvader Heist Items
-data_usb = { name = 'data_usb', label = 'Top Secret Info', weight = 500, type = 'item', image = 'data_usb.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'Contains valuable data' }
+data_usb = { name = 'data_usb', label = 'Top Secret Info', weight = 500, type = 'item', image = 'data_usb.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'Contains valuable data' },
 
 -- FBI Robbery Items
-fbikeycard = { name = 'fbikeycard', label = 'FbiKeycard', weight = 1000, type = 'item', image = 'fbi_keycard_green.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'FBI keycard' }
-datadrive = { name = 'datadrive', label = 'datadrive', weight = 1000, type = 'item', image = 'datadrive.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'datadrive' }
-fbidoc = { name = 'fbidoc', label = 'fbiDocument', weight = 500, type = 'item', image = 'fbidco.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A FBI document' }
-stolencomputer = { name = 'stolencomputer', label = 'stolencomputer', weight = 1000, type = 'item', image = 'stolencomputer.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'stolencomputer' }
-fbi_laptop_1 = { name = 'fbi_laptop_1', label = 'fbi laptop 1', weight = 1000, type = 'item', image = 'fbi_laptop_1.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'FBI laptop' }
-fbi_laptop_2 = { name = 'fbi_laptop_2', label = 'fbi laptop 2', weight = 1000, type = 'item', image = 'fbi_laptop_2.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'FBI laptop' }
-fbi_laptop_3 = { name = 'fbi_laptop_3', label = 'fbi laptop 3', weight = 1000, type = 'item', image = 'fbi_laptop_3.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'FBI laptop' }
-fbi_laptop_4 = { name = 'fbi_laptop_4', label = 'fbi laptop 4', weight = 1000, type = 'item', image = 'fbi_laptop_4.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'FBI laptop' }
-fbi_laptop_5 = { name = 'fbi_laptop_5', label = 'fbi laptop 5', weight = 1000, type = 'item', image = 'fbi_laptop_5.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'FBI laptop' }
-fbiserverusb = { name = 'fbiserverusb', label = 'FBI SERVER USB Data', weight = 1000, type = 'item', image = 'fbiserverusb.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'FBI laptop' }
-fbiserverusb_2 = { name = 'fbiserverusb_2', label = 'FBI SERVER USB Data', weight = 1000, type = 'item', image = 'fbiserverusb2.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'FBI laptop' }
-encrypted_document = { name = 'encrypted_document', label = 'FBI encrypted document', weight = 1000, type = 'item', image = 'np_documents.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'FBI encrypted document' }
-electronickit = { name = 'electronickit', label = 'Electronic Kit', weight = 100, type = 'item', image = 'electronickit.png', unique = false, useable = true, shouldClose = true, combinable = {accept = {'gatecrack'}, reward = 'trojan_usb', anim = nil}, description = 'If you\'ve always wanted to build a robot you can maybe start here. Maybe you\'ll be the new Elon Musk?' }
+fbikeycard = { name = 'fbikeycard', label = 'FbiKeycard', weight = 1000, type = 'item', image = 'fbi_keycard_green.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'FBI keycard' },
+datadrive = { name = 'datadrive', label = 'datadrive', weight = 1000, type = 'item', image = 'datadrive.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'datadrive' },
+fbidoc = { name = 'fbidoc', label = 'fbiDocument', weight = 500, type = 'item', image = 'fbidco.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A FBI document' },
+stolencomputer = { name = 'stolencomputer', label = 'stolencomputer', weight = 1000, type = 'item', image = 'stolencomputer.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'stolencomputer' },
+fbi_laptop_1 = { name = 'fbi_laptop_1', label = 'fbi laptop 1', weight = 1000, type = 'item', image = 'fbi_laptop_1.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'FBI laptop' },
+fbi_laptop_2 = { name = 'fbi_laptop_2', label = 'fbi laptop 2', weight = 1000, type = 'item', image = 'fbi_laptop_2.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'FBI laptop' },
+fbi_laptop_3 = { name = 'fbi_laptop_3', label = 'fbi laptop 3', weight = 1000, type = 'item', image = 'fbi_laptop_3.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'FBI laptop' },
+fbi_laptop_4 = { name = 'fbi_laptop_4', label = 'fbi laptop 4', weight = 1000, type = 'item', image = 'fbi_laptop_4.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'FBI laptop' },
+fbi_laptop_5 = { name = 'fbi_laptop_5', label = 'fbi laptop 5', weight = 1000, type = 'item', image = 'fbi_laptop_5.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'FBI laptop' },
+fbiserverusb = { name = 'fbiserverusb', label = 'FBI SERVER USB Data', weight = 1000, type = 'item', image = 'fbiserverusb.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'FBI laptop' },
+fbiserverusb_2 = { name = 'fbiserverusb_2', label = 'FBI SERVER USB Data', weight = 1000, type = 'item', image = 'fbiserverusb2.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'FBI laptop' },
+encrypted_document = { name = 'encrypted_document', label = 'FBI encrypted document', weight = 1000, type = 'item', image = 'np_documents.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'FBI encrypted document' },
+electronickit = { name = 'electronickit', label = 'Electronic Kit', weight = 100, type = 'item', image = 'electronickit.png', unique = false, useable = true, shouldClose = true, combinable = {accept = {'gatecrack'}, reward = 'trojan_usb', anim = nil}, description = 'If you\'ve always wanted to build a robot you can maybe start here. Maybe you\'ll be the new Elon Musk?' },
 
 -- Prep Item
-wearhousecard = { name = 'wearhousecard', label = 'FBI Card', weight = 100, type = 'item', image = 'np_exec_card.png', unique = true, useable = true, shouldClose = false, combinable = nil, description = 'Wear house card', created = nil, decay = 28.0 }
+wearhousecard = { name = 'wearhousecard', label = 'FBI Card', weight = 100, type = 'item', image = 'np_exec_card.png', unique = true, useable = true, shouldClose = false, combinable = nil, description = 'Wear house card', created = nil, decay = 28.0 },
 
 -- Heist Items
-nightgoggles = { name = 'nightgoggles', label = 'Night vision helmet', weight = 5000, type = 'item', image = 'nightvision.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A high-tier military night vision helmet' }
-armorykey = { name = 'armorykey', label = 'Armory Access Card', weight = 1000, type = 'item', image = 'armorykey.png', unique = true, useable = false, shouldClose = false, combinable = nil, description = 'A access card for the MRPD armory' }
-usb_green = { name = 'usb_green', label = 'Green USB', weight = 5000, type = 'item', image = 'usb_green.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'What is this USB used for?' }
+nightgoggles = { name = 'nightgoggles', label = 'Night vision helmet', weight = 5000, type = 'item', image = 'nightvision.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A high-tier military night vision helmet' },
+armorykey = { name = 'armorykey', label = 'Armory Access Card', weight = 1000, type = 'item', image = 'armorykey.png', unique = true, useable = false, shouldClose = false, combinable = nil, description = 'A access card for the MRPD armory' },
+usb_green = { name = 'usb_green', label = 'Green USB', weight = 5000, type = 'item', image = 'usb_green.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'What is this USB used for?' },
 
 -- Male Chains
-diamondchainv = { name = 'diamondchainv', label = 'Diamond Chain', weight = 150, type = 'item', image = 'chainpng.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A chain' }
-cubanchain = { name = 'cubanchain', label = 'Cuban Chain', weight = 120, type = 'item', image = 'chainpng.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A chain' }
-tmfchain = { name = 'tmfchain', label = 'TMF Chain', weight = 100, type = 'item', image = 'chainpng.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A chain' }
-crosschain = { name = 'crosschain', label = 'Cross Chain', weight = 90, type = 'item', image = 'chainpng.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A chain' }
-woochain = { name = 'woochain', label = 'Woo Chain', weight = 80, type = 'item', image = 'chainpng.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A chain' }
-woochaintwo = { name = 'woochaintwo', label = 'Woo Chain', weight = 80, type = 'item', image = 'chainpng.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A chain' }
-spadeschain = { name = 'spadeschain', label = 'Spade Chain', weight = 70, type = 'item', image = 'chainpng.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A chain' }
-cubanmafiachain = { name = 'cubanmafiachain', label = 'Cuban Mafia Chain', weight = 100, type = 'item', image = 'chainpng.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A chain' }
-gthreechain = { name = 'gthreechain', label = 'Three Chain', weight = 85, type = 'item', image = 'chainpng.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A chain' }
-ratchain = { name = 'ratchain', label = 'Rat Chain', weight = 60, type = 'item', image = 'chainpng.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A chain' }
-otfchain = { name = 'otfchain', label = 'OTF Chain', weight = 75, type = 'item', image = 'chainpng.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A chain' }
-spadeschain = { name = 'spadeschain', label = 'Spade Chain', weight = 95, type = 'item', image = 'chainpng.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A chain' }
+diamondchainv = { name = 'diamondchainv', label = 'Diamond Chain', weight = 150, type = 'item', image = 'chainpng.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A chain' },
+cubanchain = { name = 'cubanchain', label = 'Cuban Chain', weight = 120, type = 'item', image = 'chainpng.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A chain' },
+tmfchain = { name = 'tmfchain', label = 'TMF Chain', weight = 100, type = 'item', image = 'chainpng.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A chain' },
+crosschain = { name = 'crosschain', label = 'Cross Chain', weight = 90, type = 'item', image = 'chainpng.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A chain' },
+woochain = { name = 'woochain', label = 'Woo Chain', weight = 80, type = 'item', image = 'chainpng.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A chain' },
+woochaintwo = { name = 'woochaintwo', label = 'Woo Chain', weight = 80, type = 'item', image = 'chainpng.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A chain' },
+spadeschain = { name = 'spadeschain', label = 'Spade Chain', weight = 70, type = 'item', image = 'chainpng.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A chain' },
+cubanmafiachain = { name = 'cubanmafiachain', label = 'Cuban Mafia Chain', weight = 100, type = 'item', image = 'chainpng.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A chain' },
+gthreechain = { name = 'gthreechain', label = 'Three Chain', weight = 85, type = 'item', image = 'chainpng.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A chain' },
+ratchain = { name = 'ratchain', label = 'Rat Chain', weight = 60, type = 'item', image = 'chainpng.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A chain' },
+otfchain = { name = 'otfchain', label = 'OTF Chain', weight = 75, type = 'item', image = 'chainpng.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A chain' },
+spadeschain = { name = 'spadeschain', label = 'Spade Chain', weight = 95, type = 'item', image = 'chainpng.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A chain' },
 
 -- Masks
-skullmask = { name = 'skullmask', label = 'Skull Mask', weight = 50, type = 'item', image = 'mask.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A mask' }
-skullbandana = { name = 'skullbandana', label = 'Skull Bandana', weight = 40, type = 'item', image = 'mask.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A mask' }
-balaclava = { name = 'balaclava', label = 'Balaclava', weight = 30, type = 'item', image = 'mask.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A mask' }
+skullmask = { name = 'skullmask', label = 'Skull Mask', weight = 50, type = 'item', image = 'mask.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A mask' },
+skullbandana = { name = 'skullbandana', label = 'Skull Bandana', weight = 40, type = 'item', image = 'mask.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A mask' },
+balaclava = { name = 'balaclava', label = 'Balaclava', weight = 30, type = 'item', image = 'mask.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A mask' },
 
 -- Shoes
-airforce = { name = 'airforce', label = 'Nike Air Force', weight = 1000, type = 'item', image = 'shoes.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A shoe' }
-airforce1 = { name = 'airforce1', label = 'Nike Air Force', weight = 1000, type = 'item', image = 'shoes.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A shoe' }
-airforce2 = { name = 'airforce2', label = 'Nike Air Force', weight = 1000, type = 'item', image = 'shoes.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A shoe' }
-airforce3 = { name = 'airforce3', label = 'Nike Air Force', weight = 1000, type = 'item', image = 'shoes.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A shoe' }
-airforce4 = { name = 'airforce4', label = 'Nike Air Force', weight = 1000, type = 'item', image = 'shoes.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A shoe' }
-airforce5 = { name = 'airforce5', label = 'Nike Air Force', weight = 1000, type = 'item', image = 'shoes.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A shoe' }
-airforce6 = { name = 'airforce6', label = 'Nike Air Force', weight = 1000, type = 'item', image = 'shoes.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A shoe' }
-airforce7 = { name = 'airforce7', label = 'Nike Air Force', weight = 1000, type = 'item', image = 'shoes.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A shoe' }
-airforce8 = { name = 'airforce8', label = 'Nike Air Force', weight = 1000, type = 'item', image = 'shoes.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A shoe' }
-airforce9 = { name = 'airforce9', label = 'Nike Air Force', weight = 1000, type = 'item', image = 'shoes.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A shoe' }
-airforce10 = { name = 'airforce10', label = 'Nike Air Force', weight = 1000, type = 'item', image = 'shoes.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A shoe' }
-airforce11 = { name = 'airforce11', label = 'Nike Air Force', weight = 1000, type = 'item', image = 'shoes.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A shoe' }
-airforce12 = { name = 'airforce12', label = 'Nike Air Force', weight = 1000, type = 'item', image = 'shoes.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A shoe' }
-airforce13 = { name = 'airforce13', label = 'Nike Air Force', weight = 1000, type = 'item', image = 'shoes.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A shoe' }
-airforce14 = { name = 'airforce14', label = 'Nike Air Force', weight = 1000, type = 'item', image = 'shoes.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A shoe' }
-airforce15 = { name = 'airforce15', label = 'Nike Air Force', weight = 1000, type = 'item', image = 'shoes.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A shoe' }
+airforce = { name = 'airforce', label = 'Nike Air Force', weight = 1000, type = 'item', image = 'shoes.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A shoe' },
+airforce1 = { name = 'airforce1', label = 'Nike Air Force', weight = 1000, type = 'item', image = 'shoes.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A shoe' },
+airforce2 = { name = 'airforce2', label = 'Nike Air Force', weight = 1000, type = 'item', image = 'shoes.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A shoe' },
+airforce3 = { name = 'airforce3', label = 'Nike Air Force', weight = 1000, type = 'item', image = 'shoes.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A shoe' },
+airforce4 = { name = 'airforce4', label = 'Nike Air Force', weight = 1000, type = 'item', image = 'shoes.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A shoe' },
+airforce5 = { name = 'airforce5', label = 'Nike Air Force', weight = 1000, type = 'item', image = 'shoes.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A shoe' },
+airforce6 = { name = 'airforce6', label = 'Nike Air Force', weight = 1000, type = 'item', image = 'shoes.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A shoe' },
+airforce7 = { name = 'airforce7', label = 'Nike Air Force', weight = 1000, type = 'item', image = 'shoes.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A shoe' },
+airforce8 = { name = 'airforce8', label = 'Nike Air Force', weight = 1000, type = 'item', image = 'shoes.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A shoe' },
+airforce9 = { name = 'airforce9', label = 'Nike Air Force', weight = 1000, type = 'item', image = 'shoes.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A shoe' },
+airforce10 = { name = 'airforce10', label = 'Nike Air Force', weight = 1000, type = 'item', image = 'shoes.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A shoe' },
+airforce11 = { name = 'airforce11', label = 'Nike Air Force', weight = 1000, type = 'item', image = 'shoes.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A shoe' },
+airforce12 = { name = 'airforce12', label = 'Nike Air Force', weight = 1000, type = 'item', image = 'shoes.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A shoe' },
+airforce13 = { name = 'airforce13', label = 'Nike Air Force', weight = 1000, type = 'item', image = 'shoes.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A shoe' },
+airforce14 = { name = 'airforce14', label = 'Nike Air Force', weight = 1000, type = 'item', image = 'shoes.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A shoe' },
+airforce15 = { name = 'airforce15', label = 'Nike Air Force', weight = 1000, type = 'item', image = 'shoes.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A shoe' },
 
 -- Nike Air Max
-airmax = { name = 'airmax', label = 'Nike Air Max', weight = 800, type = 'item', image = 'shoes.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A shoe' }
-airmax1 = { name = 'airmax1', label = 'Nike Air Max', weight = 800, type = 'item', image = 'shoes.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A shoe' }
-airmax2 = { name = 'airmax2', label = 'Nike Air Max', weight = 800, type = 'item', image = 'shoes.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A shoe' }
-airmax3 = { name = 'airmax3', label = 'Nike Air Max', weight = 800, type = 'item', image = 'shoes.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A shoe' }
-airmax4 = { name = 'airmax4', label = 'Nike Air Max', weight = 800, type = 'item', image = 'shoes.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A shoe' }
+airmax = { name = 'airmax', label = 'Nike Air Max', weight = 800, type = 'item', image = 'shoes.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A shoe' },
+airmax1 = { name = 'airmax1', label = 'Nike Air Max', weight = 800, type = 'item', image = 'shoes.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A shoe' },
+airmax2 = { name = 'airmax2', label = 'Nike Air Max', weight = 800, type = 'item', image = 'shoes.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A shoe' },
+airmax3 = { name = 'airmax3', label = 'Nike Air Max', weight = 800, type = 'item', image = 'shoes.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A shoe' },
+airmax4 = { name = 'airmax4', label = 'Nike Air Max', weight = 800, type = 'item', image = 'shoes.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A shoe' },
 
 -- Nike Shoes
 airmax = { name = 'airmax', label = 'Nike Air Max', weight = 850, type = 'item', image = 'shoes.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A shoe' },
@@ -1860,7 +1861,7 @@ policepouches = { name = 'policepouches', label = 'Police Pouch', weight = 5000,
 policepouches1 = { name = 'policepouches1', label = 'Police Pouch', weight = 5000, type = 'item', image = 'policepouches1.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A larger version of the police pouch used to store additional tactical gear and equipment.' },
 
 -- Briefcase Lockpicker
-briefcaselockpicker = { name = 'briefcaselockpicker', label = 'Briefcase Lockpicker', weight = 500, type = 'item', image = 'lockpick.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'Briefcase Lockpicker' }
+briefcaselockpicker = { name = 'briefcaselockpicker', label = 'Briefcase Lockpicker', weight = 500, type = 'item', image = 'lockpick.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'Briefcase Lockpicker' },
 
 -- Business Cards and more
 business_card = { name = 'business_card', label = 'A business card', weight = 5, type = 'item', image = 'bctest.png', unique = true, useable = true, shouldClose = false, combinable = nil, description = 'A business card' },
@@ -1873,7 +1874,7 @@ newspaper = { name = 'newspaper', label = 'Newspaper', weight = 5, type = 'item'
 -- Hacker Phone
 hackerphone = { name = 'hackerphone', label = 'root@hackerphone', weight = 1500, type = 'item', image = 'hackerphone.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = '' },
 centralchip = { name = 'centralchip', label = 'Central Chip', weight = 750, type = 'item', image = 'centralchip.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = '' },
-tracker = { name = 'tracker', label = 'Tracker', weight = 750, type = 'item', image = 'tracker.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = '' }
+tracker = { name = 'tracker', label = 'Tracker', weight = 750, type = 'item', image = 'tracker.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = '' },
 
 -- Jim Shops Additional
 sprunk = { name = 'sprunk', label = 'Sprunk', weight = 500, type = 'item', image = 'sprunk.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = '', thirst = math.random(20, 30) },
@@ -1886,7 +1887,7 @@ skytracker = { name = 'skytracker', label = 'Skydiving Tracker', weight = 500, t
 
 -- Flight School
 flight_test_permit = { name = 'flight_test_permit', label = 'Flight Test Permit', weight = 5, type = 'item', image = 'dmv.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'Permit for Flying Test' },
-flight_license = { name = 'flight_license', label = 'Flight License', weight = 5, type = 'item', image = 'pilotlicense.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'License for Aerial vehicles' }
+flight_license = { name = 'flight_license', label = 'Flight License', weight = 5, type = 'item', image = 'pilotlicense.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'License for Aerial vehicles' },
 
 -- Containers
 containergreensmall = { name = "containergreensmall", label = "Small Green Container", weight = 20000, type = "item", image = "container_green_small.png", unique = true, useable = true, shouldClose = true, combinable = nil, description = "Small Green Container" },
@@ -1898,7 +1899,7 @@ containerboltcutter = { name = "containerboltcutter", label = "Boltcutter", weig
 -- Scrap Diving
 screwdriver = { name = "screwdriver", label = "Screwdriver", weight = 500, type = "item", image = "screwdriver.png", unique = false, useable = true, shouldClose = false, combinable = nil, description = "A flathead screwdriver. I mean sure the handle is a bit worn but this thing probably works." },
 blowtorch = { name = "blowtorch", label = "Blowtorch", weight = 7500, type = "item", image = "blowtorch.png", unique = true, useable = false, shouldClose = false, combinable = nil, description = "A high propane instrument used for welding and other things..." },
-wd40 = { name = "wd40", label = "WD-40", weight = 500, type = "item", image = "wd40.png", unique = true, useable = false, shouldClose = false, combinable = nil, description = "A chemical compound with multiple purposes, including the removal of corrosion." }
+wd40 = { name = "wd40", label = "WD-40", weight = 500, type = "item", image = "wd40.png", unique = true, useable = false, shouldClose = false, combinable = nil, description = "A chemical compound with multiple purposes, including the removal of corrosion." },
 
 -- Pistol Parts
 pistol1 = { name = "pistol1", label = "Pistol Grip", weight = 100, type = "item", image = "pistol1.png", unique = false, useable = false, shouldClose = false, combinable = nil, description = "The barrel of a Walther P-99 Pistol." },
@@ -1907,194 +1908,194 @@ pistol3 = { name = "pistol3", label = "Slide", weight = 100, type = "item", imag
 pistol4 = { name = "pistol4", label = "Pistol Chassis", weight = 100, type = "item", image = "pistol4.png", unique = false, useable = false, shouldClose = false, combinable = nil, description = "The chassis of a Walther P-99 Pistol." },
 
 -- Electronic Scrap
-electronicscrap = { name = 'electronicscrap', label = 'Electronic Scrap', weight = 200, type = 'item', image = 'electronics.png', unique = false, useable = true, shouldClose = false, combinable = nil, description = 'A couple of wires and a circuit board, might be able to do something with this?' }
+electronicscrap = { name = 'electronicscrap', label = 'Electronic Scrap', weight = 200, type = 'item', image = 'electronics.png', unique = false, useable = true, shouldClose = false, combinable = nil, description = 'A couple of wires and a circuit board, might be able to do something with this?' },
 
 -- Car Parts
-tissuebox = { name = "tissuebox", label = "Tissue Box", weight = 100, type = "item", image = "tissuebox.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "An old box of tissues... Wonderful..." }
-chewinggum = { name = "chewinggum", label = "Old pack of gum", weight = 120, type = "item", image = "chewinggum.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "An old looking pack of chewing gum... Wouldn't trust it..." }
-rustynails = { name = "rustynails", label = "Rusted Nails", weight = 150, type = "item", image = "rustynails.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "A collection of nails that have seen better days... Perhaps they can be cleaned?" }
-carwipers = { name = "carwipers", label = "Windsheild Wipers", weight = 250, type = "item", image = "windshieldwipers.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "Looks like these wipers can still be used, not bad." }
-oldtire = { name = "oldtire", label = "Old worn tire", weight = 320, type = "item", image = "oldtire.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "This tire looks like it has seen better days, might be able to salvage some of it..." }
-fuelcap = { name = "fuelcap", label = "Fuel Cap", weight = 160, type = "item", image = "fuelcap.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "Used to keep the fuel in the tank, could use a spare couple of these..." }
-carjack = { name = "carjack", label = "Car Jack", weight = 1000, type = "item", image = "carjack.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "A battery used to power motor vehicles. Not sure if this has any charge left." }
-carbattery = { name = "carbattery", label = "Car Battery", weight = 800, type = "item", image = "carbattery.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "A battery used to power motor vehicles. Not sure if this has any charge left." }
-carradio = { name = "carradio", label = "Car Radio", weight = 550, type = "item", image = "carradio.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "A radio equipped to play through changes in radio signals." }
-gearshift = { name = "gearshift", label = "Gearshift", weight = 450, type = "item", image = "gearshift.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "A manual car stick shifter." }
-airfilter = { name = "airfilter", label = "Airfilter", weight = 550, type = "item", image = "airfilter.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "A filter to avoid contamination of airflow into the motor vehicle." }
-sparkplugs = { name = "sparkplugs", label = "Sparkplugs", weight = 250, type = "item", image = "sparkplugs.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "Car part generating electrical spark for combustion of motor vehicle fuel." }
-spoiler = { name = "spoiler", label = "Car Spoiler", weight = 1300, type = "item", image = "spoiler.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "A car spoiler used to improve aerodynamics and slip stream performance of a motor vehicle." }
-cardoor = { name = "cardoor", label = "Car Door", weight = 1650, type = "item", image = "cardoor.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "A door which has been stripped off a motor vehicle." }
-carrim = { name = "carrim", label = "Sports Rim", weight = 850, type = "item", image = "carrim.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "A chrome rim alloy." }
-cargrill = { name = "cargrill", label = "Car Grill", weight = 850, type = "item", image = "cargrill.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "Front grill chrome alloy from a motor vehicle." }
-carengine = { name = "carengine", label = "Engine Block", weight = 2250, type = "item", image = "carengine.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "Combustion engine from a motor vehicle." }
-carhood = { name = "carhood", label = "Car Hood", weight = 1450, type = "item", image = "carhood.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "The hood component of a motor vehicle." }
+tissuebox = { name = "tissuebox", label = "Tissue Box", weight = 100, type = "item", image = "tissuebox.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "An old box of tissues... Wonderful..." },
+chewinggum = { name = "chewinggum", label = "Old pack of gum", weight = 120, type = "item", image = "chewinggum.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "An old looking pack of chewing gum... Wouldn't trust it..." },
+rustynails = { name = "rustynails", label = "Rusted Nails", weight = 150, type = "item", image = "rustynails.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "A collection of nails that have seen better days... Perhaps they can be cleaned?" },
+carwipers = { name = "carwipers", label = "Windsheild Wipers", weight = 250, type = "item", image = "windshieldwipers.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "Looks like these wipers can still be used, not bad." },
+oldtire = { name = "oldtire", label = "Old worn tire", weight = 320, type = "item", image = "oldtire.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "This tire looks like it has seen better days, might be able to salvage some of it..." },
+fuelcap = { name = "fuelcap", label = "Fuel Cap", weight = 160, type = "item", image = "fuelcap.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "Used to keep the fuel in the tank, could use a spare couple of these..." },
+carjack = { name = "carjack", label = "Car Jack", weight = 1000, type = "item", image = "carjack.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "A battery used to power motor vehicles. Not sure if this has any charge left." },
+carbattery = { name = "carbattery", label = "Car Battery", weight = 800, type = "item", image = "carbattery.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "A battery used to power motor vehicles. Not sure if this has any charge left." },
+carradio = { name = "carradio", label = "Car Radio", weight = 550, type = "item", image = "carradio.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "A radio equipped to play through changes in radio signals." },
+gearshift = { name = "gearshift", label = "Gearshift", weight = 450, type = "item", image = "gearshift.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "A manual car stick shifter." },
+airfilter = { name = "airfilter", label = "Airfilter", weight = 550, type = "item", image = "airfilter.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "A filter to avoid contamination of airflow into the motor vehicle." },
+sparkplugs = { name = "sparkplugs", label = "Sparkplugs", weight = 250, type = "item", image = "sparkplugs.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "Car part generating electrical spark for combustion of motor vehicle fuel." },
+spoiler = { name = "spoiler", label = "Car Spoiler", weight = 1300, type = "item", image = "spoiler.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "A car spoiler used to improve aerodynamics and slip stream performance of a motor vehicle." },
+cardoor = { name = "cardoor", label = "Car Door", weight = 1650, type = "item", image = "cardoor.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "A door which has been stripped off a motor vehicle." },
+carrim = { name = "carrim", label = "Sports Rim", weight = 850, type = "item", image = "carrim.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "A chrome rim alloy." },
+cargrill = { name = "cargrill", label = "Car Grill", weight = 850, type = "item", image = "cargrill.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "Front grill chrome alloy from a motor vehicle." },
+carengine = { name = "carengine", label = "Engine Block", weight = 2250, type = "item", image = "carengine.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "Combustion engine from a motor vehicle." },
+carhood = { name = "carhood", label = "Car Hood", weight = 1450, type = "item", image = "carhood.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "The hood component of a motor vehicle." },
 
 -- Quasar Phone
-    classic_phone = { name = 'classic_phone', label = 'Classic Phone', weight = 50, type = 'item', image = 'classic_phone.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'They say that Quasar Smartphone is the same as an iPhone, what do you think?' }
-    black_phone = { name = 'black_phone', label = 'Black Phone', weight = 50, type = 'item', image = 'black_phone.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'They say that Quasar Smartphone is the same as an iPhone, what do you think?' }
-    blue_phone = { name = 'blue_phone', label = 'Blue Phone', weight = 50, type = 'item', image = 'blue_phone.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'They say that Quasar Smartphone is the same as an iPhone, what do you think?' }
-    gold_phone = { name = 'gold_phone', label = 'Gold Phone', weight = 50, type = 'item', image = 'gold_phone.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'They say that Quasar Smartphone is the same as an iPhone, what do you think?' }
-    red_phone = { name = 'red_phone', label = 'Red Phone', weight = 50, type = 'item', image = 'red_phone.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'They say that Quasar Smartphone is the same as an iPhone, what do you think?' }
-    green_phone = { name = 'green_phone', label = 'Green Phone', weight = 50, type = 'item', image = 'green_phone.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'They say that Quasar Smartphone is the same as an iPhone, what do you think?' }
-    greenlight_phone = { name = 'greenlight_phone', label = 'Green Light Phone', weight = 50, type = 'item', image = 'greenlight_phone.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'They say that Quasar Smartphone is the same as an iPhone, what do you think?' }
-    pink_phone = { name = 'pink_phone', label = 'Pink Phone', weight = 50, type = 'item', image = 'pink_phone.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'They say that Quasar Smartphone is the same as an iPhone, what do you think?' }
-    white_phone = { name = 'white_phone', label = 'White Phone', weight = 50, type = 'item', image = 'white_phone.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'They say that Quasar Smartphone is the same as an iPhone, what do you think?' }
+    classic_phone = { name = 'classic_phone', label = 'Classic Phone', weight = 50, type = 'item', image = 'classic_phone.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'They say that Quasar Smartphone is the same as an iPhone, what do you think?' },
+    black_phone = { name = 'black_phone', label = 'Black Phone', weight = 50, type = 'item', image = 'black_phone.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'They say that Quasar Smartphone is the same as an iPhone, what do you think?' },
+    blue_phone = { name = 'blue_phone', label = 'Blue Phone', weight = 50, type = 'item', image = 'blue_phone.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'They say that Quasar Smartphone is the same as an iPhone, what do you think?' },
+    gold_phone = { name = 'gold_phone', label = 'Gold Phone', weight = 50, type = 'item', image = 'gold_phone.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'They say that Quasar Smartphone is the same as an iPhone, what do you think?' },
+    red_phone = { name = 'red_phone', label = 'Red Phone', weight = 50, type = 'item', image = 'red_phone.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'They say that Quasar Smartphone is the same as an iPhone, what do you think?' },
+    green_phone = { name = 'green_phone', label = 'Green Phone', weight = 50, type = 'item', image = 'green_phone.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'They say that Quasar Smartphone is the same as an iPhone, what do you think?' },
+    greenlight_phone = { name = 'greenlight_phone', label = 'Green Light Phone', weight = 50, type = 'item', image = 'greenlight_phone.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'They say that Quasar Smartphone is the same as an iPhone, what do you think?' },
+    pink_phone = { name = 'pink_phone', label = 'Pink Phone', weight = 50, type = 'item', image = 'pink_phone.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'They say that Quasar Smartphone is the same as an iPhone, what do you think?' },
+    white_phone = { name = 'white_phone', label = 'White Phone', weight = 50, type = 'item', image = 'white_phone.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'They say that Quasar Smartphone is the same as an iPhone, what do you think?' },
     
-    wet_phone = { name = 'wet_phone', label = 'Wet Phone', weight = 50, type = 'item', image = 'wet_classic_phone.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'Did you really think that swimming in the ocean with your phone was a good idea?' }
-    wet_classic_phone = { name = 'wet_classic_phone', label = 'Wet Classic Phone', weight = 50, type = 'item', image = 'wet_classic_phone.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'Did you really think that swimming in the ocean with your phone was a good idea?' }
-    wet_black_phone = { name = 'wet_black_phone', label = 'Wet Black Phone', weight = 50, type = 'item', image = 'wet_black_phone.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'Did you really think that swimming in the ocean with your phone was a good idea?' }
-    wet_blue_phone = { name = 'wet_blue_phone', label = 'Wet Blue Phone', weight = 50, type = 'item', image = 'wet_blue_phone.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'Did you really think that swimming in the ocean with your phone was a good idea?' }
-    wet_gold_phone = { name = 'wet_gold_phone', label = 'Wet Gold Phone', weight = 50, type = 'item', image = 'wet_gold_phone.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'Did you really think that swimming in the ocean with your phone was a good idea?' }
-    wet_red_phone = { name = 'wet_red_phone', label = 'Wet Red Phone', weight = 50, type = 'item', image = 'wet_red_phone.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'Did you really think that swimming in the ocean with your phone was a good idea?' }
-    wet_green_phone = { name = 'wet_green_phone', label = 'Wet Green Phone', weight = 50, type = 'item', image = 'wet_green_phone.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'They say that Quasar Smartphone is the same as an iPhone, what do you think?' }
-    wet_greenlight_phone = { name = 'wet_greenlight_phone', label = 'Wet Green Light Phone', weight = 50, type = 'item', image = 'wet_greenlight_phone.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'They say that Quasar Smartphone is the same as an iPhone, what do you think?' }
-    wet_pink_phone = { name = 'wet_pink_phone', label = 'Wet Pink Phone', weight = 50, type = 'item', image = 'wet_pink_phone.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'They say that Quasar Smartphone is the same as an iPhone, what do you think?' }
-    wet_white_phone = { name = 'wet_white_phone', label = 'Wet White Phone', weight = 50, type = 'item', image = 'wet_white_phone.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'They say that Quasar Smartphone is the same as an iPhone, what do you think?' }
+    wet_phone = { name = 'wet_phone', label = 'Wet Phone', weight = 50, type = 'item', image = 'wet_classic_phone.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'Did you really think that swimming in the ocean with your phone was a good idea?' },
+    wet_classic_phone = { name = 'wet_classic_phone', label = 'Wet Classic Phone', weight = 50, type = 'item', image = 'wet_classic_phone.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'Did you really think that swimming in the ocean with your phone was a good idea?' },
+    wet_black_phone = { name = 'wet_black_phone', label = 'Wet Black Phone', weight = 50, type = 'item', image = 'wet_black_phone.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'Did you really think that swimming in the ocean with your phone was a good idea?' },
+    wet_blue_phone = { name = 'wet_blue_phone', label = 'Wet Blue Phone', weight = 50, type = 'item', image = 'wet_blue_phone.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'Did you really think that swimming in the ocean with your phone was a good idea?' },
+    wet_gold_phone = { name = 'wet_gold_phone', label = 'Wet Gold Phone', weight = 50, type = 'item', image = 'wet_gold_phone.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'Did you really think that swimming in the ocean with your phone was a good idea?' },
+    wet_red_phone = { name = 'wet_red_phone', label = 'Wet Red Phone', weight = 50, type = 'item', image = 'wet_red_phone.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'Did you really think that swimming in the ocean with your phone was a good idea?' },
+    wet_green_phone = { name = 'wet_green_phone', label = 'Wet Green Phone', weight = 50, type = 'item', image = 'wet_green_phone.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'They say that Quasar Smartphone is the same as an iPhone, what do you think?' },
+    wet_greenlight_phone = { name = 'wet_greenlight_phone', label = 'Wet Green Light Phone', weight = 50, type = 'item', image = 'wet_greenlight_phone.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'They say that Quasar Smartphone is the same as an iPhone, what do you think?' },
+    wet_pink_phone = { name = 'wet_pink_phone', label = 'Wet Pink Phone', weight = 50, type = 'item', image = 'wet_pink_phone.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'They say that Quasar Smartphone is the same as an iPhone, what do you think?' },
+    wet_white_phone = { name = 'wet_white_phone', label = 'Wet White Phone', weight = 50, type = 'item', image = 'wet_white_phone.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'They say that Quasar Smartphone is the same as an iPhone, what do you think?' },
     
-    phone_hack = { name = 'phone_hack', label = 'Phone Hack', weight = 30, type = 'item', image = 'phone_hack.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'With this chip, you can access hidden areas of Discord.' }
-    phone_module = { name = 'phone_module', label = 'Phone Module', weight = 30, type = 'item', image = 'phone_module.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'It seems that we can fix a wet phone with this module, interesting.' }
-    powerbank = { name = 'powerbank', label = 'Power Bank', weight = 20, type = 'item', image = 'powerbank.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'Incredible portable charger!' }
+    phone_hack = { name = 'phone_hack', label = 'Phone Hack', weight = 30, type = 'item', image = 'phone_hack.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'With this chip, you can access hidden areas of Discord.' },
+    phone_module = { name = 'phone_module', label = 'Phone Module', weight = 30, type = 'item', image = 'phone_module.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'It seems that we can fix a wet phone with this module, interesting.' },
+    powerbank = { name = 'powerbank', label = 'Power Bank', weight = 20, type = 'item', image = 'powerbank.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'Incredible portable charger!' },
     
 -- Jim Payments
-payticket = { name = "payticket", label = "Receipt", weight = 150, type = "item", image = "ticket.png", unique = false, useable = false, shouldClose = false, combinable = nil, description = "Cash these in at the bank!" }
+payticket = { name = "payticket", label = "Receipt", weight = 150, type = "item", image = "ticket.png", unique = false, useable = false, shouldClose = false, combinable = nil, description = "Cash these in at the bank!" },
 
 -- Renewed Mining
-iron_ore = { name = 'iron_ore', label = 'Iron Ore', weight = 500, type = 'item', image = 'iron_ore.png', unique = false, useable = false, shouldClose = true, combinable = nil, description = 'A Iron Ore...' }
-copper_ore = { name = 'copper_ore', label = 'Copper Ore', weight = 500, type = 'item', image = 'copper_ore.png', unique = false, useable = false, shouldClose = true, combinable = nil, description = 'A Copper Ore...' }
-gold_ore = { name = 'gold_ore', label = 'Gold Ore', weight = 500, type = 'item', image = 'gold_ore.png', unique = false, useable = false, shouldClose = true, combinable = nil, description = 'A Gold Ore...' }
-tin_ore = { name = 'tin_ore', label = 'Tin Ore', weight = 500, type = 'item', image = 'iron_ore.png', unique = false, useable = false, shouldClose = true, combinable = nil, description = 'A Tin Ore...' }
-crystal_red = { name = 'crystal_red', label = 'Red Crystal Ore', weight = 500, type = 'item', image = 'crystal_red.png', unique = false, useable = false, shouldClose = true, combinable = nil, description = 'A Red Crystal Ore...' }
-crystal_green = { name = 'crystal_green', label = 'Green Crystal Ore', weight = 500, type = 'item', image = 'crystal_green.png', unique = false, useable = false, shouldClose = true, combinable = nil, description = 'A Green Crystal Ore...' }
-crystal_blue = { name = 'crystal_blue', label = 'Blue Crystal Ore', weight = 500, type = 'item', image = 'crystal_blue.png', unique = false, useable = false, shouldClose = true, combinable = nil, description = 'A Blue Crystal Ore...' }
-gold_nugget = { name = 'gold_nugget', label = 'Golden Nugget', weight = 200, type = 'item', image = 'golden_nugget.png', unique = false, useable = false, shouldClose = true, combinable = nil, description = 'A Golden Nugget...' }
-tin = { name = 'tin', label = 'Tin Bar', weight = 50, type = 'item', image = 'tin.png', unique = false, useable = false, shouldClose = true, combinable = nil, description = 'A Tin Bar...' }
-pickaxe = { name = 'pickaxe', label = 'Pickaxe', weight = 1000, type = 'item', image = 'pickaxe.png', unique = false, useable = false, shouldClose = true, combinable = nil, description = 'Just a pickaxe used for mining...' }
+iron_ore = { name = 'iron_ore', label = 'Iron Ore', weight = 500, type = 'item', image = 'iron_ore.png', unique = false, useable = false, shouldClose = true, combinable = nil, description = 'A Iron Ore...' },
+copper_ore = { name = 'copper_ore', label = 'Copper Ore', weight = 500, type = 'item', image = 'copper_ore.png', unique = false, useable = false, shouldClose = true, combinable = nil, description = 'A Copper Ore...' },
+gold_ore = { name = 'gold_ore', label = 'Gold Ore', weight = 500, type = 'item', image = 'gold_ore.png', unique = false, useable = false, shouldClose = true, combinable = nil, description = 'A Gold Ore...' },
+tin_ore = { name = 'tin_ore', label = 'Tin Ore', weight = 500, type = 'item', image = 'iron_ore.png', unique = false, useable = false, shouldClose = true, combinable = nil, description = 'A Tin Ore...' },
+crystal_red = { name = 'crystal_red', label = 'Red Crystal Ore', weight = 500, type = 'item', image = 'crystal_red.png', unique = false, useable = false, shouldClose = true, combinable = nil, description = 'A Red Crystal Ore...' },
+crystal_green = { name = 'crystal_green', label = 'Green Crystal Ore', weight = 500, type = 'item', image = 'crystal_green.png', unique = false, useable = false, shouldClose = true, combinable = nil, description = 'A Green Crystal Ore...' },
+crystal_blue = { name = 'crystal_blue', label = 'Blue Crystal Ore', weight = 500, type = 'item', image = 'crystal_blue.png', unique = false, useable = false, shouldClose = true, combinable = nil, description = 'A Blue Crystal Ore...' },
+gold_nugget = { name = 'gold_nugget', label = 'Golden Nugget', weight = 200, type = 'item', image = 'golden_nugget.png', unique = false, useable = false, shouldClose = true, combinable = nil, description = 'A Golden Nugget...' },
+tin = { name = 'tin', label = 'Tin Bar', weight = 50, type = 'item', image = 'tin.png', unique = false, useable = false, shouldClose = true, combinable = nil, description = 'A Tin Bar...' },
+pickaxe = { name = 'pickaxe', label = 'Pickaxe', weight = 1000, type = 'item', image = 'pickaxe.png', unique = false, useable = false, shouldClose = true, combinable = nil, description = 'Just a pickaxe used for mining...' },
 
 -- Teaser
-taserammo = { name = "taserammo", label = "Taser Cartridges", weight = 1000, type = "item", image = "taserammo.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "No More Spamming. lul" }
+taserammo = { name = "taserammo", label = "Taser Cartridges", weight = 1000, type = "item", image = "taserammo.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "No More Spamming. lul" },
 
 -- Vending Machines
-cl_machine = { name = "cl_machine", label = "Vending Machine", weight = 500, type = "item", image = "cl_machine.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "Vending machine that can be used to sell and buy items." }
+cl_machine = { name = "cl_machine", label = "Vending Machine", weight = 500, type = "item", image = "cl_machine.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "Vending machine that can be used to sell and buy items." },
 
 -- Nails
-blacknails = { name = "blacknails", label = "Black Nails", weight = 50, type = "item", image = "blacknails.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "Black Nails" }
-pinknails = { name = "pinknails", label = "Pink Nails", weight = 50, type = "item", image = "blacknails.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "Pink Nails" }
-bluenails = { name = "bluenails", label = "Blue Nails", weight = 50, type = "item", image = "blacknails.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "Blue Nails" }
-rednails = { name = "rednails", label = "Red Nails", weight = 50, type = "item", image = "blacknails.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "Red Nails" }
-mixednails = { name = "mixednails", label = "Mixed Nails", weight = 50, type = "item", image = "blacknails.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "Mixed Nails" }
+blacknails = { name = "blacknails", label = "Black Nails", weight = 50, type = "item", image = "blacknails.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "Black Nails" },
+pinknails = { name = "pinknails", label = "Pink Nails", weight = 50, type = "item", image = "blacknails.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "Pink Nails" },
+bluenails = { name = "bluenails", label = "Blue Nails", weight = 50, type = "item", image = "blacknails.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "Blue Nails" },
+rednails = { name = "rednails", label = "Red Nails", weight = 50, type = "item", image = "blacknails.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "Red Nails" },
+mixednails = { name = "mixednails", label = "Mixed Nails", weight = 50, type = "item", image = "blacknails.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "Mixed Nails" },
 
 -- Chairs
-chair1 = { name = "chair1", label = "Black Couch", weight = 500, type = "item", image = "chair1.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair2 = { name = "chair2", label = "Wood Lounger", weight = 500, type = "item", image = "chair2.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair3 = { name = "chair3", label = "Metal Deco Chair", weight = 500, type = "item", image = "chair3.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair4 = { name = "chair4", label = "Old Metal Chair", weight = 500, type = "item", image = "chair4.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair5 = { name = "chair5", label = "Old Office Chair", weight = 500, type = "item", image = "chair5.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair6 = { name = "chair6", label = "Grey Dining Chair", weight = 500, type = "item", image = "chair6.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair7 = { name = "chair7", label = "Fancy Dining Chair", weight = 500, type = "item", image = "chair7.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair8 = { name = "chair8", label = "Lime Couch", weight = 500, type = "item", image = "chair8.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair9 = { name = "chair9", label = "Standard Dining Chair", weight = 500, type = "item", image = "chair9.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair10 = { name = "chair10", label = "Black Office Couch", weight = 500, type = "item", image = "chair10.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
+chair1 = { name = "chair1", label = "Black Couch", weight = 500, type = "item", image = "chair1.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair2 = { name = "chair2", label = "Wood Lounger", weight = 500, type = "item", image = "chair2.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair3 = { name = "chair3", label = "Metal Deco Chair", weight = 500, type = "item", image = "chair3.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair4 = { name = "chair4", label = "Old Metal Chair", weight = 500, type = "item", image = "chair4.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair5 = { name = "chair5", label = "Old Office Chair", weight = 500, type = "item", image = "chair5.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair6 = { name = "chair6", label = "Grey Dining Chair", weight = 500, type = "item", image = "chair6.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair7 = { name = "chair7", label = "Fancy Dining Chair", weight = 500, type = "item", image = "chair7.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair8 = { name = "chair8", label = "Lime Couch", weight = 500, type = "item", image = "chair8.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair9 = { name = "chair9", label = "Standard Dining Chair", weight = 500, type = "item", image = "chair9.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair10 = { name = "chair10", label = "Black Office Couch", weight = 500, type = "item", image = "chair10.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
 -- Additional Chairs
-chair11 = { name = "chair11", label = "Black Office Chair", weight = 500, type = "item", image = "chair11.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair12 = { name = "chair12", label = "Used Brown Office Chair", weight = 500, type = "item", image = "chair12.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair13 = { name = "chair13", label = "Orange Leather Chair", weight = 500, type = "item", image = "chair13.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair14 = { name = "chair14", label = "White Leather Chair", weight = 500, type = "item", image = "chair14.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair15 = { name = "chair15", label = "Old Dining Chair", weight = 500, type = "item", image = "chair15.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair16 = { name = "chair16", label = "White Dining Chair", weight = 500, type = "item", image = "chair16.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair17 = { name = "chair17", label = "Green Couch", weight = 500, type = "item", image = "chair17.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair18 = { name = "chair18", label = "Blue Dining Chair", weight = 500, type = "item", image = "chair18.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair19 = { name = "chair19", label = "White Dining Chair", weight = 500, type = "item", image = "chair19.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair20 = { name = "chair20", label = "Blue Office Chair", weight = 500, type = "item", image = "chair20.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair21 = { name = "chair21", label = "Metal Lawn Chair", weight = 500, type = "item", image = "chair21.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair22 = { name = "chair22", label = "Posh Dining Chair", weight = 500, type = "item", image = "chair22.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair23 = { name = "chair23", label = "Posh White Dining Chair", weight = 500, type = "item", image = "chair23.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair24 = { name = "chair24", label = "Old White Chair", weight = 500, type = "item", image = "chair24.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair25 = { name = "chair25", label = "Red Plastic Chair", weight = 500, type = "item", image = "chair25.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair26 = { name = "chair26", label = "Blue Plastic Chair", weight = 100, type = "item", image = "chair26.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair27 = { name = "chair27", label = "Black Leather Chair", weight = 100, type = "item", image = "chair27.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair28 = { name = "chair28", label = "Grey Office Chair", weight = 100, type = "item", image = "chair28.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair29 = { name = "chair29", label = "Blue Office Chair", weight = 100, type = "item", image = "chair29.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair30 = { name = "chair30", label = "Light Grey Office Chair", weight = 100, type = "item", image = "chair30.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair31 = { name = "chair31", label = "Black Office Chair", weight = 100, type = "item", image = "chair31.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair32 = { name = "chair32", label = "Luxury Office Chair", weight = 100, type = "item", image = "chair32.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair33 = { name = "chair33", label = "Black Comfy Office Chair", weight = 100, type = "item", image = "chair33.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair34 = { name = "chair34", label = "Red Office Chair", weight = 100, type = "item", image = "chair34.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair35 = { name = "chair35", label = "Ergonomic Office Chair", weight = 100, type = "item", image = "chair35.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair36 = { name = "chair36", label = "Comfy Ergonomic Office Chair", weight = 100, type = "item", image = "chair36.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair37 = { name = "chair37", label = "Dark Brown Dining Chair", weight = 100, type = "item", image = "chair37.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair38 = { name = "chair38", label = "Ol' Rocking Chair", weight = 100, type = "item", image = "chair38.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair39 = { name = "chair39", label = "Striped Wicker Chair", weight = 100, type = "item", image = "chair39.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair40 = { name = "chair40", label = "Grey Leather Chair", weight = 100, type = "item", image = "chair40.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair41 = { name = "chair41", label = "Grey Metal Chair", weight = 100, type = "item", image = "chair41.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair42 = { name = "chair42", label = "Brown Metal Chair", weight = 100, type = "item", image = "chair42.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair43 = { name = "chair43", label = "Wicker Lawn Chair", weight = 100, type = "item", image = "chair43.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair44 = { name = "chair44", label = "Old Posh Dining Chair", weight = 100, type = "item", image = "chair44.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair45 = { name = "chair45", label = "Dark Brown Dining Chair", weight = 100, type = "item", image = "chair45.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair46 = { name = "chair46", label = "White Dining Chair", weight = 100, type = "item", image = "chair46.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair47 = { name = "chair47", label = "Black Wicker Chair", weight = 100, type = "item", image = "chair47.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair48 = { name = "chair48", label = "Brown Metal Dining Chair", weight = 100, type = "item", image = "chair48.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair49 = { name = "chair49", label = "Brown Wood Dining Chair", weight = 100, type = "item", image = "chair49.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair50 = { name = "chair50", label = "Plastic Lawn Chair", weight = 100, type = "item", image = "chair50.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair51 = { name = "chair51", label = "Green Lawn Chair", weight = 100, type = "item", image = "chair51.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair52 = { name = "chair52", label = "Worn Metal Chair", weight = 100, type = "item", image = "chair52.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair53 = { name = "chair53", label = "Fancy Garden Chair", weight = 100, type = "item", image = "chair53.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair54 = { name = "chair54", label = "Old Wooden Chair", weight = 100, type = "item", image = "chair54.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair55 = { name = "chair55", label = "Old Metal", weight = 100, type = "item", image = "chair55.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair56 = { name = "chair56", label = "Old Couch", weight = 100, type = "item", image = "chair56.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair57 = { name = "chair57", label = "Purple Leather Chair", weight = 100, type = "item", image = "chair57.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair58 = { name = "chair58", label = "Zebra Print Couch", weight = 100, type = "item", image = "chair58.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair59 = { name = "chair59", label = "Lime Chair", weight = 100, type = "item", image = "chair59.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair60 = { name = "chair60", label = "Brown Office Chair", weight = 100, type = "item", image = "chair60.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair61 = { name = "chair61", label = "Cream Chair", weight = 100, type = "item", image = "chair61.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair62 = { name = "chair62", label = "Green Camping Chair", weight = 100, type = "item", image = "chair62.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair63 = { name = "chair63", label = "Blue Camping Chair", weight = 100, type = "item", image = "chair63.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair64 = { name = "chair64", label = "Striped Camping Chair", weight = 100, type = "item", image = "chair64.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair65 = { name = "chair65", label = "Posh Lounger", weight = 100, type = "item", image = "chair65.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair66 = { name = "chair66", label = "Yellow Wicker Chair", weight = 100, type = "item", image = "chair66.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair67 = { name = "chair67", label = "White Metal Dining Chair", weight = 100, type = "item", image = "chair67.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair68 = { name = "chair68", label = "White Metal Dining Chair 2", weight = 100, type = "item", image = "chair68.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair69 = { name = "chair69", label = "Dark Material Dining Chair", weight = 100, type = "item", image = "chair69.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair70 = { name = "chair70", label = "Dark Brown Metal Chair", weight = 100, type = "item", image = "chair70.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair71 = { name = "chair71", label = "Brown Lounger", weight = 100, type = "item", image = "chair71.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair72 = { name = "chair72", label = "Grey Sun Lounger", weight = 100, type = "item", image = "chair72.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair73 = { name = "chair73", label = "Dark Brown Wood Chair", weight = 100, type = "item", image = "chair73.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair74 = { name = "chair74", label = "Yellow Deco Chair", weight = 100, type = "item", image = "chair74.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair75 = { name = "chair75", label = "Oak Chair", weight = 100, type = "item", image = "chair75.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair76 = { name = "chair76", label = "Black Deco Chair", weight = 100, type = "item", image = "chair76.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair77 = { name = "chair77", label = "Yellow Office Chair", weight = 100, type = "item", image = "chair77.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair78 = { name = "chair78", label = "Wine Red Chair", weight = 100, type = "item", image = "chair78.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair79 = { name = "chair79", label = "Black Office Chair", weight = 100, type = "item", image = "chair79.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair80 = { name = "chair80", label = "Orange Louncher", weight = 100, type = "item", image = "chair80.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair81 = { name = "chair81", label = "Blue Deco Chair", weight = 100, type = "item", image = "chair81.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair82 = { name = "chair82", label = "Small Black Stool", weight = 100, type = "item", image = "chair82.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair83 = { name = "chair83", label = "Orange Couch", weight = 100, type = "item", image = "chair83.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair84 = { name = "chair84", label = "Orange Deco Couch", weight = 100, type = "item", image = "chair84.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair85 = { name = "chair85", label = "Wine Red Couch", weight = 100, type = "item", image = "chair85.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair86 = { name = "chair86", label = "Red Couch", weight = 100, type = "item", image = "chair86.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair87 = { name = "chair87", label = "White Couch", weight = 100, type = "item", image = "chair87.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair88 = { name = "chair88", label = "Black Deco Couch", weight = 100, type = "item", image = "chair88.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair89 = { name = "chair89", label = "Light Blue Couch", weight = 100, type = "item", image = "chair89.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair90 = { name = "chair90", label = "White Couch", weight = 100, type = "item", image = "chair90.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair91 = { name = "chair91", label = "White Leather Chair", weight = 100, type = "item", image = "chair91.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair92 = { name = "chair92", label = "Brown Couch", weight = 100, type = "item", image = "chair92.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair93 = { name = "chair93", label = "Brown Luxury Office Chair", weight = 100, type = "item", image = "chair93.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair94 = { name = "chair94", label = "Grey Luxury Office Chair", weight = 100, type = "item", image = "chair94.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair95 = { name = "chair95", label = "Dark Brown Couch", weight = 100, type = "item", image = "chair95.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair96 = { name = "chair96", label = "Light Brown Metal Chair", weight = 100, type = "item", image = "chair96.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair97 = { name = "chair97", label = "Plastic Lawn Chair 2", weight = 100, type = "item", image = "chair97.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair98 = { name = "chair98", label = "Red/Green Gamer Chair", weight = 100, type = "item", image = "chair98.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair99 = { name = "chair99", label = "Gamer Chair", weight = 100, type = "item", image = "chair99.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair100 = { name = "chair100", label = "Blue Metal Chair", weight = 100, type = "item", image = "chair100.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair101 = { name = "chair101", label = "Black Deco Chair", weight = 100, type = "item", image = "chair101.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair102 = { name = "chair102", label = "Red Deco Chair", weight = 100, type = "item", image = "chair102.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair103 = { name = "chair103", label = "Green Metal Dining Chair", weight = 100, type = "item", image = "chair103.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair104 = { name = "chair104", label = "Blue Metal Dining Chair", weight = 100, type = "item", image = "chair104.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair105 = { name = "chair105", label = "Light Material Dining Chair", weight = 100, type = "item", image = "chair105.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair106 = { name = "chair106", label = "Purple Deco Chair", weight = 100, type = "item", image = "chair106.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair107 = { name = "chair107", label = "Red Deco Chair", weight = 100, type = "item", image = "chair107.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair108 = { name = "chair108", label = "White Casino Chair", weight = 100, type = "item", image = "chair108.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair109 = { name = "chair109", label = "Cream Wicker Chair", weight = 100, type = "item", image = "chair109.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
-chair110 = { name = "chair110", label = "Black Metal Dining Chair", weight = 100, type = "item", image = "chair110.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" }
+chair11 = { name = "chair11", label = "Black Office Chair", weight = 500, type = "item", image = "chair11.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair12 = { name = "chair12", label = "Used Brown Office Chair", weight = 500, type = "item", image = "chair12.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair13 = { name = "chair13", label = "Orange Leather Chair", weight = 500, type = "item", image = "chair13.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair14 = { name = "chair14", label = "White Leather Chair", weight = 500, type = "item", image = "chair14.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair15 = { name = "chair15", label = "Old Dining Chair", weight = 500, type = "item", image = "chair15.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair16 = { name = "chair16", label = "White Dining Chair", weight = 500, type = "item", image = "chair16.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair17 = { name = "chair17", label = "Green Couch", weight = 500, type = "item", image = "chair17.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair18 = { name = "chair18", label = "Blue Dining Chair", weight = 500, type = "item", image = "chair18.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair19 = { name = "chair19", label = "White Dining Chair", weight = 500, type = "item", image = "chair19.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair20 = { name = "chair20", label = "Blue Office Chair", weight = 500, type = "item", image = "chair20.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair21 = { name = "chair21", label = "Metal Lawn Chair", weight = 500, type = "item", image = "chair21.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair22 = { name = "chair22", label = "Posh Dining Chair", weight = 500, type = "item", image = "chair22.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair23 = { name = "chair23", label = "Posh White Dining Chair", weight = 500, type = "item", image = "chair23.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair24 = { name = "chair24", label = "Old White Chair", weight = 500, type = "item", image = "chair24.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair25 = { name = "chair25", label = "Red Plastic Chair", weight = 500, type = "item", image = "chair25.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair26 = { name = "chair26", label = "Blue Plastic Chair", weight = 100, type = "item", image = "chair26.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair27 = { name = "chair27", label = "Black Leather Chair", weight = 100, type = "item", image = "chair27.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair28 = { name = "chair28", label = "Grey Office Chair", weight = 100, type = "item", image = "chair28.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair29 = { name = "chair29", label = "Blue Office Chair", weight = 100, type = "item", image = "chair29.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair30 = { name = "chair30", label = "Light Grey Office Chair", weight = 100, type = "item", image = "chair30.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair31 = { name = "chair31", label = "Black Office Chair", weight = 100, type = "item", image = "chair31.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair32 = { name = "chair32", label = "Luxury Office Chair", weight = 100, type = "item", image = "chair32.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair33 = { name = "chair33", label = "Black Comfy Office Chair", weight = 100, type = "item", image = "chair33.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair34 = { name = "chair34", label = "Red Office Chair", weight = 100, type = "item", image = "chair34.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair35 = { name = "chair35", label = "Ergonomic Office Chair", weight = 100, type = "item", image = "chair35.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair36 = { name = "chair36", label = "Comfy Ergonomic Office Chair", weight = 100, type = "item", image = "chair36.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair37 = { name = "chair37", label = "Dark Brown Dining Chair", weight = 100, type = "item", image = "chair37.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair38 = { name = "chair38", label = "Ol' Rocking Chair", weight = 100, type = "item", image = "chair38.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair39 = { name = "chair39", label = "Striped Wicker Chair", weight = 100, type = "item", image = "chair39.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair40 = { name = "chair40", label = "Grey Leather Chair", weight = 100, type = "item", image = "chair40.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair41 = { name = "chair41", label = "Grey Metal Chair", weight = 100, type = "item", image = "chair41.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair42 = { name = "chair42", label = "Brown Metal Chair", weight = 100, type = "item", image = "chair42.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair43 = { name = "chair43", label = "Wicker Lawn Chair", weight = 100, type = "item", image = "chair43.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair44 = { name = "chair44", label = "Old Posh Dining Chair", weight = 100, type = "item", image = "chair44.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair45 = { name = "chair45", label = "Dark Brown Dining Chair", weight = 100, type = "item", image = "chair45.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair46 = { name = "chair46", label = "White Dining Chair", weight = 100, type = "item", image = "chair46.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair47 = { name = "chair47", label = "Black Wicker Chair", weight = 100, type = "item", image = "chair47.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair48 = { name = "chair48", label = "Brown Metal Dining Chair", weight = 100, type = "item", image = "chair48.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair49 = { name = "chair49", label = "Brown Wood Dining Chair", weight = 100, type = "item", image = "chair49.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair50 = { name = "chair50", label = "Plastic Lawn Chair", weight = 100, type = "item", image = "chair50.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair51 = { name = "chair51", label = "Green Lawn Chair", weight = 100, type = "item", image = "chair51.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair52 = { name = "chair52", label = "Worn Metal Chair", weight = 100, type = "item", image = "chair52.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair53 = { name = "chair53", label = "Fancy Garden Chair", weight = 100, type = "item", image = "chair53.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair54 = { name = "chair54", label = "Old Wooden Chair", weight = 100, type = "item", image = "chair54.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair55 = { name = "chair55", label = "Old Metal", weight = 100, type = "item", image = "chair55.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair56 = { name = "chair56", label = "Old Couch", weight = 100, type = "item", image = "chair56.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair57 = { name = "chair57", label = "Purple Leather Chair", weight = 100, type = "item", image = "chair57.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair58 = { name = "chair58", label = "Zebra Print Couch", weight = 100, type = "item", image = "chair58.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair59 = { name = "chair59", label = "Lime Chair", weight = 100, type = "item", image = "chair59.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair60 = { name = "chair60", label = "Brown Office Chair", weight = 100, type = "item", image = "chair60.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair61 = { name = "chair61", label = "Cream Chair", weight = 100, type = "item", image = "chair61.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair62 = { name = "chair62", label = "Green Camping Chair", weight = 100, type = "item", image = "chair62.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair63 = { name = "chair63", label = "Blue Camping Chair", weight = 100, type = "item", image = "chair63.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair64 = { name = "chair64", label = "Striped Camping Chair", weight = 100, type = "item", image = "chair64.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair65 = { name = "chair65", label = "Posh Lounger", weight = 100, type = "item", image = "chair65.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair66 = { name = "chair66", label = "Yellow Wicker Chair", weight = 100, type = "item", image = "chair66.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair67 = { name = "chair67", label = "White Metal Dining Chair", weight = 100, type = "item", image = "chair67.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair68 = { name = "chair68", label = "White Metal Dining Chair 2", weight = 100, type = "item", image = "chair68.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair69 = { name = "chair69", label = "Dark Material Dining Chair", weight = 100, type = "item", image = "chair69.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair70 = { name = "chair70", label = "Dark Brown Metal Chair", weight = 100, type = "item", image = "chair70.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair71 = { name = "chair71", label = "Brown Lounger", weight = 100, type = "item", image = "chair71.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair72 = { name = "chair72", label = "Grey Sun Lounger", weight = 100, type = "item", image = "chair72.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair73 = { name = "chair73", label = "Dark Brown Wood Chair", weight = 100, type = "item", image = "chair73.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair74 = { name = "chair74", label = "Yellow Deco Chair", weight = 100, type = "item", image = "chair74.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair75 = { name = "chair75", label = "Oak Chair", weight = 100, type = "item", image = "chair75.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair76 = { name = "chair76", label = "Black Deco Chair", weight = 100, type = "item", image = "chair76.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair77 = { name = "chair77", label = "Yellow Office Chair", weight = 100, type = "item", image = "chair77.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair78 = { name = "chair78", label = "Wine Red Chair", weight = 100, type = "item", image = "chair78.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair79 = { name = "chair79", label = "Black Office Chair", weight = 100, type = "item", image = "chair79.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair80 = { name = "chair80", label = "Orange Louncher", weight = 100, type = "item", image = "chair80.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair81 = { name = "chair81", label = "Blue Deco Chair", weight = 100, type = "item", image = "chair81.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair82 = { name = "chair82", label = "Small Black Stool", weight = 100, type = "item", image = "chair82.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair83 = { name = "chair83", label = "Orange Couch", weight = 100, type = "item", image = "chair83.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair84 = { name = "chair84", label = "Orange Deco Couch", weight = 100, type = "item", image = "chair84.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair85 = { name = "chair85", label = "Wine Red Couch", weight = 100, type = "item", image = "chair85.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair86 = { name = "chair86", label = "Red Couch", weight = 100, type = "item", image = "chair86.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair87 = { name = "chair87", label = "White Couch", weight = 100, type = "item", image = "chair87.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair88 = { name = "chair88", label = "Black Deco Couch", weight = 100, type = "item", image = "chair88.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair89 = { name = "chair89", label = "Light Blue Couch", weight = 100, type = "item", image = "chair89.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair90 = { name = "chair90", label = "White Couch", weight = 100, type = "item", image = "chair90.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair91 = { name = "chair91", label = "White Leather Chair", weight = 100, type = "item", image = "chair91.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair92 = { name = "chair92", label = "Brown Couch", weight = 100, type = "item", image = "chair92.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair93 = { name = "chair93", label = "Brown Luxury Office Chair", weight = 100, type = "item", image = "chair93.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair94 = { name = "chair94", label = "Grey Luxury Office Chair", weight = 100, type = "item", image = "chair94.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair95 = { name = "chair95", label = "Dark Brown Couch", weight = 100, type = "item", image = "chair95.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair96 = { name = "chair96", label = "Light Brown Metal Chair", weight = 100, type = "item", image = "chair96.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair97 = { name = "chair97", label = "Plastic Lawn Chair 2", weight = 100, type = "item", image = "chair97.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair98 = { name = "chair98", label = "Red/Green Gamer Chair", weight = 100, type = "item", image = "chair98.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair99 = { name = "chair99", label = "Gamer Chair", weight = 100, type = "item", image = "chair99.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair100 = { name = "chair100", label = "Blue Metal Chair", weight = 100, type = "item", image = "chair100.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair101 = { name = "chair101", label = "Black Deco Chair", weight = 100, type = "item", image = "chair101.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair102 = { name = "chair102", label = "Red Deco Chair", weight = 100, type = "item", image = "chair102.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair103 = { name = "chair103", label = "Green Metal Dining Chair", weight = 100, type = "item", image = "chair103.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair104 = { name = "chair104", label = "Blue Metal Dining Chair", weight = 100, type = "item", image = "chair104.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair105 = { name = "chair105", label = "Light Material Dining Chair", weight = 100, type = "item", image = "chair105.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair106 = { name = "chair106", label = "Purple Deco Chair", weight = 100, type = "item", image = "chair106.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair107 = { name = "chair107", label = "Red Deco Chair", weight = 100, type = "item", image = "chair107.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair108 = { name = "chair108", label = "White Casino Chair", weight = 100, type = "item", image = "chair108.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair109 = { name = "chair109", label = "Cream Wicker Chair", weight = 100, type = "item", image = "chair109.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
+chair110 = { name = "chair110", label = "Black Metal Dining Chair", weight = 100, type = "item", image = "chair110.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "" },
 
 -- Towing
 tow_rope = { name = "tow_rope", label = "Rope", weight = 10, type = "item", image = "tow_rope.png", unique = true, useable = true, shouldClose = false, combinable = nil, description = "Towing rope for cars" },
@@ -2255,7 +2256,7 @@ labs_usb = { name = 'labs_usb', label = 'USB Research', weight = 500, type = 'it
 -- Stealing Rims
 stolenrims = { name = 'stolenrims', label = 'Rims', weight = 20000, type = 'item', image = 'stolenrims.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'Nice set of rims.' },
 stolenrims2 = { name = 'stolenrims2', label = 'Scrapyard Rims', weight = 20000, type = 'item', image = 'stolenrims2.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'Not so nice set of scrapyard rims.' },
-rimtool = { name = 'rimtool', label = 'Universal Socket', weight = 10000, type = 'item', image = 'stolenrims3.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'Handy tool for removing locknuts from wheels.' }
+rimtool = { name = 'rimtool', label = 'Universal Socket', weight = 10000, type = 'item', image = 'stolenrims3.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'Handy tool for removing locknuts from wheels.' },
 
 -- Demba Cocaine
 cocaine_leaf = { name = 'cocaine_leaf', label = 'Cocaine leaf', weight = 10, type = 'item', image = 'cocaine_leaf.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'The first step on the road to ruin.' },
